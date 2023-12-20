@@ -1,0 +1,18 @@
+RewriteEngine On
+# Rewrite for article.php?id=1&title=Title-Goes-Here
+# RewriteRule ^hs-code/([0-9]+) hs-code.php?searchcode=$1&search=$2 [QSA,L]
+# RewriteRule ^ hs-code.php?searchcode=$1&search=$2 [R=301,NE,L]
+
+RewriteRule ^hs-code/(.*)/(.*) /hs-code.php?searchcode=$1
+# RewriteRule ^hs-code/(.*)/(.*)/ /hs-code.php?searchcode=$1&search=$2
+Redirect 301 /blog/ https://www.tradeimex.in/blogs/
+RewriteRule ^hs-code/(.*) /hs-code.php?$1
+
+## Remove extensions
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+
+
