@@ -50,6 +50,27 @@
     }
 }
 
+/* list */
+.list {
+    font-weight: 600;
+    line-height: 1.8;
+    padding: 5px;
+    font-size: 13px;
+    list-style-image: url(../img/tick.png); 
+    color: #425466;
+    text-align: start;
+}
+.list li{
+    font-weight: 600;
+    line-height: 1.8;
+    padding: 5px;
+    font-size: 13px;
+    list-style-image: url(../img/tick.png); 
+    color: #425466;
+    text-align: start;
+}
+
+
 /* Social Icon Space */
 #fp {
     padding-left: 10px;
@@ -933,11 +954,14 @@ padding-top:100vh ;
         -moz-transition: all 0.2s;
     }
     .zoom img {
-        height: 100px;
+        width: 70%;
         float: left;
-        /* filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%); */
+    }
+    @media (max-width : 576px) {
+        .zoom img {
+            width: 100%;
+            float: left;
+        }
     }
     .zoom img:hover {
         /* filter: grayscale(0%);
@@ -1189,7 +1213,7 @@ padding-top:100vh ;
     /* slanted bottom */
     .slanted-bottom {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
     @media (max-width: 991px) {
         .slanted-bottom {
@@ -1258,7 +1282,7 @@ padding-top:100vh ;
 
     /* supplier page */
 
-    /* card css */
+    /* card-content css */
     .card-shadow {
         border-radius: 5%;
         -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
@@ -1291,10 +1315,18 @@ padding-top:100vh ;
         color: #425466;
     }
 
+    /* for small border left mini color */
     .card-content .head {
         border-left: 1px solid #635bff;
     }
+    .card-content .icon {
+        min-height: 40px;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 8px;
+    }
 
+    /* Card-content Heading */
     .card-content h3 {
         color: white;
         text-align: start;
@@ -1305,13 +1337,8 @@ padding-top:100vh ;
         padding: 0px 0px 0px 10px;
     }
 
-    .card-content .icon {
-        min-height: 40px;
-        display: flex;
-        align-items: flex-end;
-        margin-bottom: 8px;
-    }
-
+    
+    /* Card-content Background CSS */
     .card-content-bg p {
         color: white;
         font-size: 14px;
@@ -1327,7 +1354,6 @@ padding-top:100vh ;
         justify-content: left;
         width: 30%;
     }
-
     .card-content-bg h3 {
         color: white;
         text-align: start;
@@ -1337,12 +1363,54 @@ padding-top:100vh ;
         font-weight: 600;
         padding: 0px 0px 0px 10px;
     }
+
+    /* For No background with no hover Hover */
     .bg-none {
         background-color: transparent !important;
     }
+    .bg-none:hover {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    }
+    .bg-none-H {
+        background-color: transparent !important;
+    }
+    .bg-none-H:hover {
+        -webkit-box-shadow: -1px 4px 37px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 4px 37px 2px rgba(0,0,0,0.75);
+        box-shadow: -1px 4px 37px 2px rgba(0,0,0,0.75);
+    }
+
+    /* For Auto height of card */
     .cdh-none {
         height: auto;
     }
+    .cdh-13 {
+        height: 13rem !important;
+    }
+    .cdh-14 {
+        height: 14rem !important;
+    }
+    .cdh-15 {
+        height: 15rem !important;
+    }
+    .cdh-16 {
+        height: 16rem !important;
+    }
+    .cdh-17 {
+        height: 17rem;
+    }
+    .cdh-18 {
+        height: 18rem;
+    }
+    .cdh-19 {
+        height: 19rem;
+    }
+    .cdh-20 {
+        height: 20rem !important;
+    }
+    /* card heights for multiple cards sections */
     /* end of card content */
 
     /* career */
@@ -1763,7 +1831,6 @@ padding-top:100vh ;
         }
         .tab button {
             display: block;
-            background-color: #202020;
             color: #fff;
             padding: 10px 10px;
             width: 100%;
@@ -1836,7 +1903,7 @@ padding-top:100vh ;
         border-radius: 20px;
         transition: 0.25s ease-in-out;
         box-shadow: 0 8px 17px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-        max-height: 10rem;
+        min-height: 12rem;
         object-fit: fill;
     }
     .blog_card_content {
@@ -2513,7 +2580,6 @@ padding-top:100vh ;
         }
         .country-tab button {
             display: block;
-            color: #202020;
             padding: 10px 10px;
             width: 80%;
             border: none;

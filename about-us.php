@@ -163,7 +163,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #ff972c;">
                                         <h3 style="color: #fff;">Connecting Businesses Worldwide</h3>
                                     </div>
@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #ff972c;">
                                         <h3 style="color: #fff;">Providing Trusted Trade Information</h3>
                                     </div>
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #ff972c;">
                                         <h3 style="color: #fff;">Fostering Collaboration and Innovation:</h3>
                                     </div>
@@ -227,7 +227,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <!-- <div class="icon">
                                         <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                     </div> -->
@@ -243,7 +243,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #20bb40;">
                                         <h3 style="color: #fff;">Simplifying Trade Processes</h3>
                                     </div>
@@ -255,7 +255,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #20bb40;">
                                         <h3 style="color: #fff;">Enhancing Transparency and Trust:</h3>
                                     </div>
@@ -293,7 +293,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <!-- <div class="icon">
                                         <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                                     </div> -->
@@ -308,7 +308,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #e6f328;">
                                         <h3 style="color: #fff;">Commitment to Transparency</h3>
                                     </div>
@@ -321,7 +321,7 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="card-content cdh-none bg-none">
+                                <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #e6f328;">
                                         <h3 style="color: #fff;">Commitment to Compliance:</h3>
                                     </div>
@@ -340,20 +340,21 @@
         </div>
 
         <!-- Contact Us Last Tab -->
-        <div id="message1" class="container-fluid message-area bg-gradient-custom">
+        <div id="message1" class="container-fluid bg-gradient-custom pdt-2 pdb-2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <div class="text-other-color1" style="color: white !important;"> Are you ready to skyrocket your profits?  </div>
-                        <div class="text-other-color2"><h2 style="color: white !important;"> contact us.</h2></div>
+                        <div class="text-other-color1" style="color: white !important;"> 
+                            Are you ready to skyrocket your profits?contact us. 
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" style="display: flex;justify-content: end;">
                         <div class="buttons-holder">
                             <a href="partners.php" class="ybtn ybtn-accent-color">
                                 Sales Partner
                             </a>
                             <a href="partners.php" class="ybtn ybtn-white ybtn-shadow">
-                                Refferal Partner
+                                Referral Partner
                             </a>
                         </div>
                     </div>

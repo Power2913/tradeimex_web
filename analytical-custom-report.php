@@ -113,13 +113,14 @@
                         trends, competitor analysis, consumer behavior, and growth opportunities.
                     </p>
                 </div>
+                <!-- Key Points -->
                 <div class="row">
                     <div class="text-content">
                         <h3>Benefits of Customized Analytical Reports from TradeImeX</h3>
                         <br>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-15">
                             <div class="head">
                                 <h3>Tailored to Specific Needs</h3>
                             </div>
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content"> 
+                        <div class="card-content cdh-15"> 
                             <div class="head">
                                 <h3>Comprehensive Insights</h3>
                             </div>
@@ -144,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-15">
                             <div class="head">
                                 <h3>Timesaving</h3>
                             </div>
@@ -156,7 +157,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-15">
                             <div class="head">
                                 <h3>Cost-Effective</h3>
                             </div>
@@ -185,9 +186,10 @@
                         that align with their growth objectives and maximize their chances of success.
                     </p>
                 </div>
-                <div class="row" style="padding-top: 3%;">
+                <!-- Key Points -->
+                <div class="row">
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <h3>
                                 BE AWARE OF THE COMPANY&#39;S NATURE AND POSITION IN THE MARKET
                             </h3>
@@ -200,17 +202,16 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <h3>LEARN MORE ABOUT A PRODUCT&#39;S GLOBAL TRADE</h3>
                             <p>
                                 A marketer might develop prospective supply chain strategies for a particular commodity to
-                                learn about market trends and consumption patterns by conducting a market study. You can
-                                learn more about any product’s global trade data with market research and analysis.
+                                learn about market trends and consumption patterns by conducting a market study.
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <h3>TIME AND EFFICIENCY SAVING</h3>
                             <p>
                                 Marketers used to thoroughly research every nation before deciding on a possible market and
@@ -220,13 +221,36 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <h3>BETTER ANALYSIS IS ASSISTED BY INTERACTIVE PLATFORMS</h3>
                             <p>
                                 These days, it&#39;s easy to examine reports engagingly and dynamically with the help of a variety of
                                 interactive web tools and platforms. You can use a variety of tools when you have access to the
                                 market analysis database.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Last Tab -->
+        <div id="message1" class="container-fluid bg-gradient-custom pdt-2 pdb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="text-other-color1" style="color: white !important;"> 
+                            Are you ready to skyrocket your profits?contact us. 
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6" style="display: flex;justify-content: end;">
+                        <div class="buttons-holder">
+                            <a href="partners.php" class="ybtn ybtn-accent-color">
+                                Sales Partner
+                            </a>
+                            <a href="partners.php" class="ybtn ybtn-white ybtn-shadow">
+                                Referral Partner
+                            </a>
                         </div>
                     </div>
                 </div>

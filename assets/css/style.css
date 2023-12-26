@@ -370,15 +370,6 @@ a, input[type=submit] {
         left: -15px;
     }
 }
-.list {
-    font-weight: 600;
-    line-height: 1.8;
-    padding: 5px;
-    font-size: 13px;
-    list-style-image: url(../img/tick.png); 
-    color: #425466;
-    text-align: start;
-}
 
 #asiainfo{
     font-size: 15px;
