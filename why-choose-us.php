@@ -127,218 +127,236 @@
         </div>
 
         <!-- Cards -->
-        <div class="container-fluid padding-tb bg-dark-custom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>Extensive Global Trade Database</b>
-                                </h3>
-                                <p class="card-text">
-                                    To make informed business decisions, reliable data is crucial. TradeImeX provides access to an
-                                    extensive global trade database, empowering you with accurate information on exports,
-                                    imports, suppliers, buyers, and much more. Equipped with this knowledge, you can recognize
-                                    possible collaborators, probe new markets, and maintain a competitive edge throughout.
-                                </p>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade bg-dark-custom" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex"  style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">Extensive Global Trade Database</h3>
+                                    <p class="text-white">
+                                        To make informed business decisions, reliable data is crucial. TradeImeX provides access to an
+                                        extensive global trade database, empowering you with accurate information on exports,
+                                        imports, suppliers, buyers, and much more. Equipped with this knowledge, you can recognize
+                                        possible collaborators, probe new markets, and maintain a competitive edge throughout.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>Advanced Search and Filtering Capabilities</b>
-                                </h3>
-                                <p class="card-text">
-                                    TradeImeX and its intuitive search and filtering capabilities allow you to refine your search
-                                    according to your specific requirements. You can constrict your search by product, country,
-                                    company, or indeed the shipping details. This saves you time and effort, ensuring that you find
-                                    the most suitable import-export trade opportunities.
-                                </p>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">Advanced Search and Filtering Capabilities</h3>
+                                    <p class="text-white">
+                                        TradeImeX and its intuitive search and filtering capabilities allow 
+                                        you to refine your search according to your specific requirements. 
+                                        You can constrict your search by product, country, company, or indeed 
+                                        the shipping details. This saves you time and effort, ensuring that 
+                                        you find the most suitable import-export trade opportunities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">Real-Time Notifications</h3>
+                                    <p class="text-white">
+                                        Staying up to date with the latest trade opportunities is crucial in 
+                                        today’s rapid world of international trade. TradeImeX provides real-time 
+                                        notifications, enabling you to seize potential leads and be the first to 
+                                        engage with buyers or sellers. Whether it's a new market trend or a 
+                                        lucrative business opportunity, TradeImeX keeps you informed, giving you 
+                                        a competitive edge.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">Verified and Trustworthy Suppliers</h3>
+                                    <p class="text-white">
+                                        Finding reliable suppliers is a critical aspect of successful international 
+                                        trade. TradeImeX ensures that all suppliers listed on the platform undergo a 
+                                        stringent verification process. This ensures that you can confidently connect 
+                                        with trusted partners, minimizing the risks associated with fraudulent or 
+                                        unreliable business entities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">User-Friendly Interface</h3>
+                                    <p class="text-white">
+                                        TradeImeX prides itself on providing a user-friendly interface, making it 
+                                        easy for businesses of all sizes to leverage the platform. Our user-friendly 
+                                        interface allows you to browse without the need for technical expertise, 
+                                        saving you both time and money. Our platform is designed to enhance your 
+                                        trading experience and deliver seamless usability.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-dark-custom">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                                <div class="card-img-cstm">
+                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                                <div class="card-text-content">
+                                    <h3 class="text-white">Dedicated Customer Support</h3>
+                                    <p class="text-white">
+                                        We value our customers and understand the importance of prompt and 
+                                        reliable support. TradeImeX offers dedicated customer support to
+                                        address any queries or concerns you may have. Our team of professionals 
+                                        is constantly available to assist you, ensuring that your time on our 
+                                        platform is seamless and trouble free.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>Real-Time Notifications</b>
-                                </h3>
-                                <p class="card-text">
-                                    Staying up to date with the latest trade opportunities is crucial in today’s rapid world of
-                                    international trade. TradeImeX provides real-time notifications, enabling you to seize potential
-                                    leads and be the first to engage with buyers or sellers. Whether it&#39;s a new market trend or a
-                                    lucrative business opportunity, TradeImeX keeps you informed, giving you a competitive edge.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>Verified and Trustworthy Suppliers</b>
-                                </h3>
-                                <p class="card-text">
-                                    Finding reliable suppliers is a critical aspect of successful international trade. TradeImeX
-                                    ensures that all suppliers listed on the platform undergo a stringent verification process. This
-                                    ensures that you can confidently connect with trusted partners, minimizing the risks associated
-                                    with fraudulent or unreliable business entities.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <div class="bg-caret">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>User-Friendly Interface</b>
-                                </h3>
-                                <p class="card-text">
-                                    TradeImeX prides itself on providing a user-friendly interface, making it easy for businesses of
-                                    all sizes to leverage the platform. Our user-friendly interface allows you to browse without the
-                                    need for technical expertise, saving you both time and money. Our platform is designed to
-                                    enhance your trading experience and deliver seamless usability.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card card-zoom">
-                            <img src="/assets/model/Final_Buyer_Supplier.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    <b>Dedicated Customer Support</b>
-                                </h3>
-                                <p class="card-text">
-                                    We value our customers and understand the importance of prompt and reliable support.
-                                    TradeImeX offers dedicated customer support to address any queries or concerns you may
-                                    have. Our team of professionals is constantly available to assist you, ensuring that your time on
-                                    our platform is seamless and trouble free.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <div class="bg-caret">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </div>
-            </div>
+            </button>
         </div>
+
 
         <!-- What makes TradeImeX the best option? -->
         <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="text-content">
-                            <h2>What makes TradeImeX the best option?</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-                                <div class="card-content cdh-19">
-                                    <div class="head">
-                                        <h3>
-                                            Entirely accurate data
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        We guarantee to provide a completely reliable database. With TradeImeX you get 100%
-                                        accurate data for your business, so that you can stay ahead of your competitors in the
-                                        global trade market. Our import-export data is verified in our customs database with
-                                        reliable accuracy and on point global trade data.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-                                <div class="card-content cdh-19">
-                                    <div class="head">
-                                        <h3>
-                                            Completely recent database
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        Our team keeps an eye out for developments. We provide the most recent and updated
-                                        global trade data in our customs database for your convenience. The heart of
-                                        TradeImeX lies in its completely recent database. We ensure that traders have access to
-                                        the most recent information available.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-                                <div class="card-content cdh-19">
-                                    <div class="head">
-                                        <h3>
-                                            Data Sourcing and accuracy
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
-                                        collaborate with customs agencies across the globe to obtain accurate and reliable
-                                        import and export data. This includes information on the quantity, value, origin, and
-                                        destination of goods.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-                                <div class="card-content cdh-19">
-                                    <div class="head">
-                                        <h3>
-                                            Comprehensible packages
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        We charge incredibly low prices for our data-providing services. TradeImeX offers
-                                        comprehensive packages with a range of features and benefits that can streamline your
-                                        import and export business in the world of global trade. Get exclusive and accurate
-                                        trade data at extremely affordable packages and explore the world of global trade like
-                                        never before.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <h2>What makes TradeImeX the best option?</h2>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <img src="assets/country/Why Choose Us.jpg" width="100%">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                            <div class="card-content cdh-19">
+                                <div class="head">
+                                    <h3>
+                                        Entirely accurate data
+                                    </h3>
+                                </div>
+                                <p>
+                                    We guarantee to provide a completely reliable database. With TradeImeX you get 100%
+                                    accurate data for your business, so that you can stay ahead of your competitors in the
+                                    global trade market. Our import-export data is verified in our customs database with
+                                    reliable accuracy and on point global trade data.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                            <div class="card-content cdh-19">
+                                <div class="head">
+                                    <h3>
+                                        Completely recent database
+                                    </h3>
+                                </div>
+                                <p>
+                                    Our team keeps an eye out for developments. We provide the most recent and updated
+                                    global trade data in our customs database for your convenience. The heart of
+                                    TradeImeX lies in its completely recent database. We ensure that traders have access to
+                                    the most recent information available.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                            <div class="card-content cdh-19">
+                                <div class="head">
+                                    <h3>
+                                        Data Sourcing and accuracy
+                                    </h3>
+                                </div>
+                                <p>
+                                    TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
+                                    collaborate with customs agencies across the globe to obtain accurate and reliable
+                                    import and export data. This includes information on the quantity, value, origin, and
+                                    destination of goods.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                            <div class="card-content cdh-19">
+                                <div class="head">
+                                    <h3>
+                                        Comprehensible packages
+                                    </h3>
+                                </div>
+                                <p>
+                                    We charge incredibly low prices for our data-providing services. TradeImeX offers
+                                    comprehensive packages with a range of features and benefits that can streamline your
+                                    import and export business in the world of global trade. Get exclusive and accurate
+                                    trade data at extremely affordable packages and explore the world of global trade like
+                                    never before.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Contact Us Last Tab -->
-        <div id="message1" class="container-fluid bg-gradient-custom pdt-2 pdb-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="text-other-color1" style="color: white !important;"> 
-                            Are you ready to skyrocket your profits?contact us. 
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6" style="display: flex;justify-content: end;">
-                        <div class="buttons-holder">
-                            <a href="partners.php" class="ybtn ybtn-accent-color">
-                                Sales Partner
-                            </a>
-                            <a href="partners.php" class="ybtn ybtn-white ybtn-shadow">
-                                Referral Partner
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Last Partner tab -->
+        <?php include 'tab_inc.php';?>
 
         <?php include 'footer.php';?>
         <?php include 'script.php';?>

@@ -36,14 +36,15 @@
     $msgClass = 'errordiv'; 
     if(isset($_POST['submit'])) { 
         // Get the submitted form data 
-        $postData = $_POST; 
-        $name = trim($_POST['name']); 
-        $phone = trim($_POST['number']); 
+        $name = trim($_POST['name']);
+        $phone = trim($_POST['number']);
         $email = trim($_POST['email']); 
         $dob = trim($_POST['dob']); 
         $position = trim($_POST['position']);
         $cv = $_FILES['cv']['name'];
         $cvTmp = $_FILES['cv']['tmp_name'];
+        $file_size = $_FILES['cv']['size'];
+
 
         $response = $_POST["recaptcha_response"];
         $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -87,32 +88,39 @@
             if(empty($valErr)) { 
                 $uploadStatus = 1; 
                 
-                // Upload attachment file 
-                if(!empty($_FILES["cv"]["name"])) { 
-                    // File path config 
-                    $targetDir = $attachmentUploadDir; 
-                    $fileName = basename($_FILES["cv"]["name"]); 
-                    $targetFilePath = $targetDir . $fileName; 
-                    $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION); 
-                    
-                    // Allow certain file formats 
-                    if(in_array($fileType, $allowFileTypes)) { 
-                        // Upload file to the server 
-                        if(move_uploaded_file($cvTmp, $targetFilePath)){ 
-                            $uploadedFile = $targetFilePath; 
+                if($file_size > 3822575) {
+                    $message = 'File too large. File must be less than 3 megabytes.'; 
+                    echo '<script type="text/javascript">alert("'.$message.'");</script>'; 
+                }
+                else {
+                    // Upload attachment file 
+                    if(!empty($_FILES["cv"]["name"])) { 
+                        // File path config 
+                        $targetDir = $attachmentUploadDir; 
+                        $fileName = basename($_FILES["cv"]["name"]); 
+                        $targetFilePath = $targetDir . $fileName; 
+                        $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION); 
+                        
+                        // Allow certain file formats 
+                        if(in_array($fileType, $allowFileTypes)) { 
+                            // Upload file to the server 
+                            if(move_uploaded_file($cvTmp, $targetFilePath)){ 
+                                $uploadedFile = $targetFilePath; 
+                            }
+                            else {
+                                $uploadStatus = 0;
+                                $statusMsg = "Sorry, there was an error uploading your file.";
+                                echo $statusMsg;
+                            } 
                         }
                         else { 
-                            $uploadStatus = 0; 
-                            $statusMsg = "Sorry, there was an error uploading your file."; 
+                            $uploadStatus = 0;
+                            $statusMsg = 'Sorry, only '.implode('/', $allowFileTypes).' files are allowed to upload.'; 
                             echo $statusMsg;
                         } 
-                    }
-                    else { 
-                        $uploadStatus = 0;
-                        $statusMsg = 'Sorry, only '.implode('/', $allowFileTypes).' files are allowed to upload.'; 
-                        echo $statusMsg;
                     } 
-                } 
+                }
+                
                 
                 if($uploadStatus == 1){ 
                     // Email subject 
@@ -120,11 +128,12 @@
                     
                     // Email message  
                     $htmlContent = 
-                    '<h2>Career Form</h2> 
-                    <p><b>name:</b> '.$name.'</p> 
-                    <p><b>email:</b> '.$email.'</p> 
-                    <p><b>phone:</b> '.$phone.'</p> 
-                    <p><b>dob:</b><br/>'.$dob.'</p>'; 
+                    '<h2>Career Form</h2>
+                    <p><b>Name:</b> '.$name.'</p>
+                    <p><b>Phone:</b> '.$phone.'</p>
+                    <p><b>Email:</b> '.$email.'</p>
+                    <p><b>DOB:</b><br/>'.$dob.'</p>
+                    <p><b>Position:</b> '.$position.'</p>';
                     
                     // Header for sender info 
                     $headers = "From: $fromName"." <".$from.">"; 

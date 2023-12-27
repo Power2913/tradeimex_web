@@ -574,7 +574,7 @@
                 <div class="text-content">
                     <h1>Frequently Asked Questions!!</h1>
                 </div>
-                <div  class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -599,8 +599,8 @@
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body" style="color: #425466;">
-                                B/L Data, also known as Bill of Lading data, provides information 
-                                about shipping documents and mainly has insights about shipment 
+                                B/L Data, also known as Bill of Lading data, provides information
+                                about shipping documents and mainly has insights about shipment
                                 but pricing details are missing in this report. The main key points 
                                 mentioned in B/L data include the date, shipper name, shipper address, 
                                 sea shipments/sea frights, Commodity name, and many more such things.
@@ -626,11 +626,11 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                 <b>What is a Bill of Lading and what data does it contain?</b>
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body" style="color: #425466;">
                                 B/L Data, also known as Bill of Lading data, provides information 
                                 about shipping documents and mainly has insights about shipment 
@@ -642,11 +642,11 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                 <b>What does it mean with statistical Data?</b>
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body" style="color: #425466;">
                                 Statistical data helps you to study the market size of 
                                 any country and then gives you insights into their imports 

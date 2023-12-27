@@ -1654,27 +1654,8 @@
         </div>
 
         <!-- Last Contact Us -->
-        <section class="container-fluid bg-gradient-custom pdt-2 pdb-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                        <div class="text-content">
-                            <h3 style="color: #fff;">
-                                YOU ARE JUST ONE CLICK AWAY FROM GETTING GLOBAL TRADE DATA
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                        <div class="btn-holder" style="padding-top: 1px;">
-                            <a class="ybtn ybtn-white ybtn-shadow" href="contact-us.php">
-                                Contact Us
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        <?php include 'tab_inc.php';?>
+        
         <!-- Alert For Link Detection -->
         <div id="snackbar">
             <svg class="bi flex-shrink-0 me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">

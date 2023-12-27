@@ -196,13 +196,20 @@
     font-weight: 600;
     font-size: 10px;
 }
+.card-text-content p {
+    font-weight: 500;
+    color: #425466;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: start;
+    max-width: 80%;
+}
 
 /* responsive text content */
 @media (max-width:576px) {
     .text-content {
         padding: 2px 2px 2px 2px;
     }
-    
     .text-content p {
         font-weight: 500;
         color: #425466;
@@ -215,6 +222,31 @@
         font-weight: 600;
         line-height: 1.8;
     }
+
+    /* for why choose us slider cards */
+    .card-text-content p {
+        font-weight: 500;
+        color: #425466;
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: start;
+        max-width: 100%;
+    }
+    .card-text-content h3 {
+        line-height: 1.4;
+        text-align: start;
+        font-weight: 600;
+        font-size: 20px;
+    }    
+    .card-text-content {
+        padding: 12px 12px 12px 12px;
+    }
+    .card-img-cstm {
+        max-height: 24rem !important;
+        min-height: 24rem !important;
+        object-fit: scale-down;
+    }
+
 }
 
 
@@ -1226,6 +1258,11 @@ padding-top:100vh ;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
         }
+        .slanted-bottom-mobile {
+            z-index: 1000;
+            position: relative;
+            display: inline;
+        }
     }
     .slanted-top {
         transform: skew(-61deg);
@@ -1410,6 +1447,12 @@ padding-top:100vh ;
     .cdh-20 {
         height: 20rem !important;
     }
+    .card-img-cstm {
+        max-height: 30rem;
+        min-height: 30rem;
+        object-fit: scale-down;
+
+    }
     /* card heights for multiple cards sections */
     /* end of card content */
 
@@ -1489,12 +1532,12 @@ padding-top:100vh ;
         line-height: 1.25rem;
     }
     
-    .core-content h2{
+    .core-content h2 {
         font-size: 26px;
         font-weight: 600;
         line-height: 1.4;
     }
-    .core-content h3{
+    .core-content h3 {
         font-size: 18px;
         font-weight: 600;
         line-height: 1.4;
@@ -1504,6 +1547,14 @@ padding-top:100vh ;
         font-size: 14px;
         line-height: 1.6;
     }
+    @media (max-width: 576px) {
+        .career-img {
+            display: flex;
+            height: auto;
+            width: 100%;
+        }
+    }
+    /* career css end */
 
     /* partners form */
     .form-content h1{
@@ -1598,7 +1649,7 @@ padding-top:100vh ;
         position: relative;
         list-style: none;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 15px;
     }
     .text-hover:after {    
         background: none repeat scroll 0 0 transparent;
@@ -2255,7 +2306,7 @@ padding-top:100vh ;
         background-size: 500% auto;
         animation: textShine 5s ease-in-out infinite alternate;
     }
-    .card {
+    .card-custom {
         margin-top: 2% !important;
         margin-bottom: 2% !important;
         border: 0 !important;
