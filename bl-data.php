@@ -80,7 +80,7 @@
             <div class="container pdt-2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/revenue.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -89,47 +89,50 @@
                             </div>
                             <p>
                                 Access to comprehensive B/L data empowers businesses to
-                                make data-driven decisions, optimize their supply chain, identify new markets, and stay
-                                ahead of the competition.
+                                make data-driven decisions, optimize their supply chain, identify new markets, and
+                                stay ahead of the competition.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/automated.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
-                                <h3>Risk Mitigation</h3>
+                                <h3>Streamlined Documentation Processes</h3>
                             </div>
                             <p>
-                                By analyzing B/L data, businesses can assess the creditworthiness of
-                                potential partners, identify any irregularities in shipping patterns, and mitigate risks
-                                associated with international trade.
+                                Traditionally, managing and processing
+                                shipping documentation can be a tough and time-consuming task. However, B/L data
+                                can streamline these processes, reducing administrative burdens and improving
+                                operational efficiency.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/process.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Market Intelligence</h3>
+                                <h3>Data-Driven Decision Making</h3>
                             </div>
                             <p>
-                                B/L data provides valuable market intelligence, enabling businesses
-                                to identify emerging trends, gauge demand, and make informed investment decisions.
+                                B/L data provides businesses with a valuable source of
+                                data for decision-making purposes. By acquiring B/L data, companies can gain insights
+                                into various aspects of their operations, such as transit times, routes, carriers&#39;
+                                performance, and costs.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-15">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/survey.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Competitor Analysis</h3>
+                                <h3>Enhanced Supply Chain Visibility and Tracking</h3>
                             </div>
                             <p>
                                 With TradeImeX, businesses can track their competitors&#39; activities,

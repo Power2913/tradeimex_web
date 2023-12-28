@@ -444,7 +444,7 @@
                         <div class="text-content content-highlight">
                             <h2 class="text-white">Global Reach</h2>
                             <p class="text-white">
-                                With clients spanning over 80+ countries, TradeImeX has achieved a truly global reach. The
+                                With our clients spanning worldwide, TradeImeX has achieved a truly global reach. The
                                 company&#39;s ability to cater to clients from various regions and cultures sets them apart from
                                 their competitors. We at TradeImeX guarantee that its clients get customized help and direction
                                 to optimize their global trade openings, regardless of whether the establishment is grounded in
@@ -467,23 +467,37 @@
                     <div class="col-sm-12 col-lg-md-6 col-lg-6">
                         <div class="text-content content-highlight">
                             <h2 class="text-white">
-                                Satisfied Clients
+                                Client Retention
                             </h2>
                             <p class="text-white">
-                                TradeImeX works hard to integrate technology and work acumen so that the database it
-                                provides to its clients is correct and updated in every way. Satisfying our clients and consumers
-                                is always our ultimate motive, and we work hard to achieve this regardless of the firm. One of
-                                TradeImeX Info Solution Pvt Ltd.&#39;s greatest USPs is its customer-centric approach and quick
-                                reaction time. We always deliver on our promises. We wanted to make a few promises to our
-                                clients, such that we would always give affordable services, that we would always be dedicated
-                                to quality with 100% data correctness, and that we would always offer quick customer service.
-                                With an impressive track record of serving over 6000 clients across 80+ countries, TradeImeX
-                                has established itself as a global leader in trade intelligence. Through their unrivaled
-                                experience, extensive network, and unparalleled services, TradeImeX continues to guide
-                                businesses toward maximizing their global trade opportunities.
+                                Client retention is our primary goal. Maximum brands are associated with us from the day of
+                                inception. When it comes to client retention, we take a proactive and professional approach.
+                                With a deep understanding of the importance of maintaining long-term relationships,
+                                TradeImeX goes above and beyond to ensure client satisfaction.
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pdt-2 pdb-2">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Satisfied Clients</h2>
+                    <p>
+                        TradeImeX works hard to integrate technology and work acumen so that the database it
+                        provides to its clients is correct and updated in every way. Satisfying our clients and consumers
+                        is always our ultimate motive, and we work hard to achieve this regardless of the firm. One of
+                        TradeImeX Info Solution Pvt Ltd.&#39;s greatest USPs is its customer-centric approach and quick
+                        reaction time. We always deliver on our promises. We wanted to make a few promises to our
+                        clients, such that we would always give affordable services, that we would always be dedicated
+                        to quality with 100% data correctness, and that we would always offer quick customer service.
+                        With an impressive track record of serving over 10000 clients across 80+ countries, TradeImeX
+                        has established itself as a global leader in trade intelligence. Through their unrivaled
+                        experience, extensive network, and unparalleled services, TradeImeX continues to guide
+                        businesses toward maximizing their global trade opportunities.
+                    </p>
                 </div>
             </div>
         </div>

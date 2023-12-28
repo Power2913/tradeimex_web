@@ -39,15 +39,15 @@
                                 For each of you, we have three outstanding products in our inventory. These solutions make it
                                 simple for you to identify possible markets, from which you may calculate market risks and your
                                 profit margin. We offer import-export information for more than 80 nations on six continents.
-                                We offer three different types of products or data: Bill of Lading data, statistical data, and
-                                customs data. Our products are designed to empower businesses with precious perceptivity
-                                and intelligence to form informed opinions and enhance their competitive advantage in the
-                                global trade market.
+                                We offer three different types of products or data: Customs data, Statistical data, and Bill of
+                                Lading data. Our products are designed to empower businesses with precious perceptivity and
+                                intelligence to form informed opinions and enhance their competitive advantage in the global
+                                trade market.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
+                            
                     </div>
                 </div>
             </div>
@@ -174,13 +174,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="card-content cdh-none bg-none-H">
                                     <div class="head" style="border-left: 2px solid #ff972c;">
-                                        <h3 style="color: #fff;">Supplier Selection</h3>
+                                        <h3 style="color: #fff;">Buyer and Supplier Selection</h3>
                                     </div>
                                     <p style="color: #fff;">
-                                        TradeImeX Customs data enables businesses to identify reliable 
-                                        suppliers by evaluating their past trade records. This ensures 
-                                        that companies can build long-term partnerships with suppliers
-                                        who meet quality, pricing, and delivery requirements.
+                                        TradeImeX Customs data enables businesses to identify
+                                        reliable buyers and suppliers by evaluating their past trade records. This ensures that
+                                        companies can build long-term partnerships with buyers and suppliers who meet
+                                        quality, pricing, and delivery requirements.
                                     </p>
                                 </div>
                             </div>

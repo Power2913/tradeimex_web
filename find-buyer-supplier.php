@@ -114,8 +114,8 @@
                                 </h3>
                             </div>
                             <p>
-                                TradeImeX offers detailed profiles of buyers, including information on their previous purchases,
-                                product preferences, and contact details. These profiles provide valuable insights into buyer
+                                TradeImeX offers detailed profiles of buyers, including information on their previous
+                                purchases, and product preferences. These profiles provide valuable insights into buyer
                                 behavior and help you tailor your marketing strategies accordingly.
                             </p>
                         </div>
@@ -178,9 +178,9 @@
                                     </h3>
                                 </div>
                                 <p>
-                                    TradeImeX provides verified information on suppliers, including their contact details, product
-                                    portfolios, and certification status. This ensures that you&#39;re dealing with secure suppliers and
-                                    minimizes the threat of fraudulent deals.
+                                    TradeImeX provides verified information on suppliers, including their product portfolios, and
+                                    certification status. This ensures that you&#39;re dealing with secure suppliers and minimizes the
+                                    threat of fraudulent deals.
                                 </p>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
             </div>
         </div>
 
-        <!-- Content with unique slider -->
+        <!-- Potential of TradeImeXr -->
         <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="text-content">
@@ -236,12 +236,12 @@
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Regularly Update Your Profile</h3>
+                                <h3>Stay Updated with Market Insights</h3>
                             </div>
                             <p>
-                                Keeping your TradeImeX profile up to date is important for attracting potential buyers or
-                                suppliers. Keep your contact information, product details, and trade history current to ensure
-                                accurate and relevant search results.
+                                To stay ahead in the trading game, it is crucial to be well-informed about the latest market
+                                trends, industry news, and trade regulations. TradeImeX provides valuable market insights
+                                and updates, which can help you make informed business decisions. 
                             </p>
                         </div>
                     </div>

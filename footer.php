@@ -192,7 +192,7 @@
             <div class="col-lg-6 col-md-6 col-xl-6 col-xs-12">
                 <div style="text-align: center;padding: 20px 0px 0px 0px;">
                     <p style="font-size:14px">
-                        <b>© 2018-2023 by TradeImeX® India. All Rights are Reserved</b>
+                        <b>© 2018-2024 by TradeImeX® India. All Rights are Reserved</b>
                     </p>
                 </div> 
             </div>

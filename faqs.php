@@ -436,9 +436,8 @@
                             <div id="collapse-19" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p>
-                                        We update the data from different countries every week. 
-                                        We make every effort to use our data to provide you with 
-                                        the most recent market fluctuations.
+                                        We update the data every month and some customs reports are available weekly too. We
+                                        make every effort to use our data to provide you with the most recent market fluctuations.
                                     </p>
                                 </div>
                             </div>
@@ -580,22 +579,6 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-27" aria-expanded="false" aria-controls="collapseTwo">
-                                    <b>What nation is the best option for import-export trade business?</b>
-                                </button>
-                            </h2>
-                            <div id="collapse-27" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Russia, China, Germany, the US, and Ireland are the top trading 
-                                        nations with the least amount of trade imbalance. TradeImeX offers 
-                                        a comprehensive data guide for you to make your import-export business successful.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-28" aria-expanded="false" aria-controls="collapseTwo">
                                     <b>How is global import-export data collected?</b>
                                 </button>
@@ -708,7 +691,9 @@
                             <div id="collapse-34" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p>
-                                        After payment, you will receive the data in one to one and a half hours.
+                                        After payment, some reports are ready to be delivered within 2 
+                                        hours and some get a time of
+                                        24 hours due to translation/sorting works.
                                     </p>
                                 </div>
                             </div>
@@ -722,8 +707,8 @@
                             <div id="collapse-35" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p>
-                                        We offer validated B/L data, customs data, and statistical data for more 
-                                        than 80 different countries. Our cutting-edge platform for market 
+                                        We offer validated customs data, statistical data, and B/L data for more than 80 different
+                                        countries. Our cutting-edge platform for market 
                                         information assists companies in identifying prospects in the international 
                                         marketplace. We provide statistics on demand as well.
                                     </p>

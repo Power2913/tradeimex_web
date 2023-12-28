@@ -255,9 +255,9 @@
                                 strategies and recommendations for expanding into new markets through self-observation and
                                 learning from others. Keeping in mind everything that has been discussed, it is crucial to
                                 maintain a customs database, which must be created completely accurately, and without errors
-                                to avoid misleading traders and marketers. Over 6000 clients have so far benefited from our
-                                support, gained their trust, and seen their revenues increase with our customs database trade
-                                data. It&#39;s now your chance to see an increase in profits, which we assure you will happen.
+                                to avoid misleading traders and marketers. Over 10000 clients have so far benefited from our
+                                support, gained their trust, and seen their revenues increase with our customs database
+                                trade data. It&#39;s now your chance to see an increase in profits, which we assure you will happen.
                             </p>
                         </div>
                     </div>

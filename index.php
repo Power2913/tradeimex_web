@@ -410,13 +410,13 @@
             <div class="container">
                 <div class="product-tab bg-dark-custom">
                     <button class="product-tablink active-1" onclick="openLink(event, 'custom')">
-                        <i class="fa-solid fa-file-pen fa-lg"></i> <br> &nbsp;Custom Data
+                        <i class="fa-solid fa-file-pen fa-lg"></i> &nbsp;Custom Data
                     </button>
                     <button class="product-tablink" onclick="openLink(event, 'stat')">
-                        <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> <br> &nbsp;Statistical Data
+                        <i class="fa-solid fa-magnifying-glass-chart fa-lg"></i> &nbsp;Statistical Data
                     </button>
                     <button class="product-tablink" onclick="openLink(event, 'bl')">
-                        <i class="fa-solid fa-chart-simple fa-lg"></i> <br> &nbsp;B/L Data
+                        <i class="fa-solid fa-chart-simple fa-lg"></i> &nbsp;B/L Data
                     </button>
                 </div>
                 <!-- Custom -->

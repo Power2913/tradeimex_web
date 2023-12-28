@@ -136,7 +136,9 @@
                     <button class="btn btn-outline text-black fw-600" type="button">
                         <a class="text-hover" href="contact-us.php">Contact Us</a>
                     </button>
-                    <button class="btn btn-primary" type="button">Blog</button>
+                    <button class="btn btn-primary" type="button">
+                        <a href="/blog.php" style="color: #fff !important;">Blog</a>
+                    </button>
                 </div>
             </div>
         </div>

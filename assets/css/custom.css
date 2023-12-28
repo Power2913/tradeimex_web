@@ -1447,6 +1447,21 @@ padding-top:100vh ;
     .cdh-20 {
         height: 20rem !important;
     }
+    .cdh-21 {
+        height: 21rem !important;
+    }
+    .cdh-22 {
+        height: 22rem !important;
+    }
+    .cdh-23 {
+        height: 23rem !important;
+    }
+    .cdh-24 {
+        height: 24rem !important;
+    }
+    .cdh-25 {
+        height: 25rem !important;
+    }
     .card-img-cstm {
         max-height: 30rem;
         min-height: 30rem;
@@ -2420,7 +2435,7 @@ padding-top:100vh ;
         padding-top: var(--partnersHeroGraphicGutter);
         padding-left: var(--partnersHeroGraphicGutter);
         align-self: end;
-        left: 22%;
+        left: 18%;
     }
 
     @media (min-width:900px) {
@@ -2692,4 +2707,16 @@ padding-top:100vh ;
         justify-content: center;
         background-color: white;
         border-radius: 10px;
+    }
+
+    /* Chart margins */
+    .chart_margin {
+        margin-bottom: -35%;
+        margin-top: -18%;
+    }
+    @media (max-width: 576px) {
+        .chart_margin {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
     }

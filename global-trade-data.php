@@ -1121,63 +1121,6 @@
             </div>
         </div>
 
-        <!-- FAQ section -->
-        <div class="container-fluid pdt-2 pdb-5 bg-bluish">
-            <div class="container">
-                <div  class="accordion" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                <b>What is an HSN Code?</b>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body" style="color: #425466;">
-                                Introduced in the year 1988, Harmonized System of Nomenclature code, 
-                                also known as HSN code is a small, 6-digit code that is given to each 
-                                product to give it a unique identity. This code is important for both, 
-                                B2B and B2C tax invoices for supplies of goods and services. HSN codes 
-                                make GST filing easier and smooth.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                <b>What is a Bill of Lading and what data does it contain?</b>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body" style="color: #425466;">
-                                B/L Data, also known as Bill of Lading data, provides information 
-                                about shipping documents and mainly has insights about shipment 
-                                but pricing details are missing in this report. The main key points 
-                                mentioned in B/L data include the date, shipper name, shipper address, 
-                                sea shipments/sea frights, Commodity name, and many more such things.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                <b>What does it mean with statistical Data?</b>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body" style="color: #425466;">
-                                Statistical data helps you to study the market size of 
-                                any country and then gives you insights into their imports 
-                                and exports in a specified time. Information covered in 
-                                statistical data mainly includes the consolidated value 
-                                of product price in a specified time, quantity of product, 
-                                name of the country, etc.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Last Partner tab -->
         <?php include 'tab_inc.php';?>
 

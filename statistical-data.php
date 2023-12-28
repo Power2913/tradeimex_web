@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <!-- four service row -->
+        <!-- Leveraging Statistical Data with TradeImeX & Key Benefits of TradeImeX Statistical Data -->
         <div class="container-fluid padding-tb bg-white">
             <div class="container">
                 <div class="text-content">
@@ -87,12 +87,13 @@
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Competitor Analysis</h3>
+                                <h3>Enhanced Market Updates</h3>
                             </div>
                             <p>
-                                Our statistical data enables businesses to gain a competitive edge
-                                by analyzing their competitors&#39; import and export activities. By uncovering their market
-                                strategies, businesses can refine their approaches and stay ahead in the market.
+                                In today&#39;s global economy, understanding market
+                                dynamics is crucial for success. Statistical data provided by TradeImeX allows
+                                businesses to gain a comprehensive understanding of market trends, customer
+                                preferences, and emerging opportunities.
                             </p>
                         </div>
                     </div>
@@ -118,12 +119,13 @@
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Mitigating Risks</h3>
+                                <h3>Informing Strategic Planning</h3>
                             </div>
                             <p>
-                                Statistical data offered by TradeImeX allows businesses to assess
-                                potential risks associated with specific markets or suppliers. By making data-driven
-                                decisions, businesses can minimize risks and safeguard their operations.
+                                Statistical data guides strategic planning by providing
+                                objective evidence and insights. Whether it&#39;s forecasting market demand, optimizing
+                                supply chains, or developing pricing strategies, statistical analysis helps businesses
+                                make informed decisions that align with their goals.
                             </p>
                         </div>
                     </div>
@@ -133,12 +135,13 @@
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Optimizing Supply Chain</h3>
+                                <h3>Optimized Supply Chain</h3>
                             </div>
                             <p>
-                                Analyzing statistical data can help businesses identify
-                                bottlenecks and inefficiencies in their supply chains. With TradeImeX, businesses can
-                                streamline their operations, reduce costs, and improve overall efficiency.
+                                Acquiring statistical data can help businesses identify
+                                bottlenecks and inefficiencies in their supply chains. With TradeImeX and its statistical
+                                data, businesses can streamline their operations, reduce costs, and improve overall
+                                efficiency.
                             </p>
                         </div>
                     </div>

@@ -208,36 +208,12 @@
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
                                 <div class="card-text-content">
-                                    <h3 class="text-white">Verified and Trustworthy Suppliers</h3>
+                                    <h3 class="text-white">Buyers & Suppliers</h3>
                                     <p class="text-white">
-                                        Finding reliable suppliers is a critical aspect of successful international 
-                                        trade. TradeImeX ensures that all suppliers listed on the platform undergo a 
-                                        stringent verification process. This ensures that you can confidently connect 
-                                        with trusted partners, minimizing the risks associated with fraudulent or 
-                                        unreliable business entities.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card bg-dark-custom">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
-                                <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
-                                <div class="card-text-content">
-                                    <h3 class="text-white">User-Friendly Interface</h3>
-                                    <p class="text-white">
-                                        TradeImeX prides itself on providing a user-friendly interface, making it 
-                                        easy for businesses of all sizes to leverage the platform. Our user-friendly 
-                                        interface allows you to browse without the need for technical expertise, 
-                                        saving you both time and money. Our platform is designed to enhance your 
-                                        trading experience and deliver seamless usability.
+                                        Finding reliable buyers and suppliers is a critical aspect of successful international trade.
+                                        TradeImeX ensures that all buyers and suppliers listed on the platform undergo a stringent
+                                        verification process. This ensures that you can confidently connect with trusted partners,
+                                        minimizing the risks associated with fraudulent or unreliable business entities.
                                     </p>
                                 </div>
                             </div>

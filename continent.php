@@ -49,6 +49,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
 
         <?php include 'link.php';?>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
         
         <!-- Google Tag Manager -->
         <script>
@@ -72,14 +73,6 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-            }
-            .chart {
-                width: 100%; 
-                min-height: 450px;
-            }
-            #chartdiv {
-                width: 100%;
-                height: 300px;
             }
         </style>
     </head>
@@ -969,30 +962,26 @@
                     </p>
                 </div>
             </div>
-            <div class="container pdt-2">
+            <div class="container">
                 <div class="row">
-                    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="list">
-                                <li>Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
-                                <li>Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
-                                <li>Petroleum gases and hydrocarbons ($2.11 billion) 3.82%</li>
-                                <li>Pharmaceuticals and Medicaments ($1.55 billion) 2.8%</li>
-                                <li>Coal and solid fuels manufactured from coal ($1.17 billion) 2.13%</li>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="list">
-                                <li>Electrical appliances including telephones ($1.01 billion) 1.83%</li>
-                                <li>Iron and steel (952 million US$) 1.72%</li>
-                                <li>Insecticides, rodenticides, fungicides, and herbicides ($912 million) 1.65%</li>
-                                <li>Tractors ($792 million) 1.43%</li>
-                                <li>Electric generating sets and rotary converters ($688 million) 1.24%</li>
-                            </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="list">
+                            <li>Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
+                            <li>Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
+                            <li>Petroleum gases and hydrocarbons ($2.11 billion) 3.82%</li>
+                            <li>Pharmaceuticals and Medicaments ($1.55 billion) 2.8%</li>
+                            <li>Coal and solid fuels manufactured from coal ($1.17 billion) 2.13%</li>
+                            <li>Electrical appliances including telephones ($1.01 billion) 1.83%</li>
+                            <li>Iron and steel (952 million US$) 1.72%</li>
+                            <li>Insecticides, rodenticides, fungicides, and herbicides ($912 million) 1.65%</li>
+                            <li>Tractors ($792 million) 1.43%</li>
+                            <li>Electric generating sets and rotary converters ($688 million) 1.24%</li>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div id="10_imports" class="chart"></div>
+                        <div class="chart_margin">
+                            <canvas id="10_imports"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1016,24 +1005,22 @@
             </div>
             <div class="container pdt-2">
                 <div  class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
-                        <div id="10_partners" class="chart"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                        <div>
+                            <canvas id="10_partners"></canvas>
+                        </div>
                     </div>
-                    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-5">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <li class="list">Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
-                            <li class="list">Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
-                            <li class="list">Petroleum gases and hydrocarbons ($2.11 billion) 3.82%</li>
-                            <li class="list">Pharmaceuticals and Medicaments ($1.55 billion) 2.8%</li>
-                            <li class="list">Coal and solid fuels manufactured from coal ($1.17 billion) 2.13%</li>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <li class="list">Electrical appliances including telephones ($1.01 billion) 1.83%</li>
-                            <li class="list">Iron and steel (952 million US$) 1.72%</li>
-                            <li class="list">Insecticides, rodenticides, fungicides, and herbicides ($912 million) 1.65%</li>
-                            <li class="list">Tractors ($792 million) 1.43%</li>
-                            <li class="list">Electric generating sets and rotary converters ($688 million) 1.24%</li>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <li class="list">Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
+                        <li class="list">Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
+                        <li class="list">Petroleum gases and hydrocarbons ($2.11 billion) 3.82%</li>
+                        <li class="list">Pharmaceuticals and Medicaments ($1.55 billion) 2.8%</li>
+                        <li class="list">Coal and solid fuels manufactured from coal ($1.17 billion) 2.13%</li>
+                        <li class="list">Electrical appliances including telephones ($1.01 billion) 1.83%</li>
+                        <li class="list">Iron and steel (952 million US$) 1.72%</li>
+                        <li class="list">Insecticides, rodenticides, fungicides, and herbicides ($912 million) 1.65%</li>
+                        <li class="list">Tractors ($792 million) 1.43%</li>
+                        <li class="list">Electric generating sets and rotary converters ($688 million) 1.24%</li>
                     </div>
                 </div>
             </div>
@@ -1167,145 +1154,101 @@
         <?php include 'footer.php';?>
         <?php include 'script.php';?>
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://www.google.com/jsapi"></script>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script src="//cdn.amcharts.com/lib/5/index.js"></script>
-        <script src="//cdn.amcharts.com/lib/5/percent.js"></script>
-        <script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-        <!-- Top 10 imports of country -->
-        <script>
-            var root = am5.Root.new("10_imports");
-
-            root.setThemes([
-                am5themes_Animated.new(root)
-            ]);
-
-            var chart = root.container.children.push(
-                am5percent.PieChart.new(root, {
-                    radius: am5.percent(90),
-                    innerRadius: am5.percent(50)
-                })
-            );
-
-            // Define data
-            var data = [{
-                    country: "France",
-                    sales: 100000
-                }, {
-                    country: "Spain",
-                    sales: 160000
-                }, {
-                country: "United Kingdom",
-                sales: 80000
-            }];
-
-            // Create series
-            var series = chart.series.push(
-                am5percent.PieSeries.new(root, {
-                    name: "Series",
-                    valueField: "sales",
-                    categoryField: "country"
-                })
-            );
-
-            series.data.setAll(data);
-
-            // Disabling labels and ticks
-            series.labels.template.set("visible", false);
-            series.ticks.template.set("visible", false);
-        </script>
-        <!-- <script type="text/javascript">
-            google.charts.load("current", {packages:["corechart"]});
-            google.charts.setOnLoadCallback(drawChart);
-            function drawChart() {
-                var data = google.visualization.arrayToDataTable([
-                    ['', 'Percentage'],
-                    ["Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%",  15.6],
-                    ["Motor cars and other motor vehicles ($2.94 billion)", 5.33],
-                    ["Petroleum gases and hydrocarbons ($2.11 billion)", 3.82],
-                    ["Pharmaceuticals and Medicaments ($1.55 billion)", 2.8],
-                    ["Coal and solid fuels manufactured from coal ($1.17 billion)", 2.13],
-                    ["Electrical appliances including telephones ($1.01 billion)",  1.83],
-                    ["Iron and steel (952 million US$)", 1.72],
-                    ["Insecticides, rodenticides, fungicides, and herbicides ($912 million)", 1.65],
-                    ["Tractors ($792 million)", 1.43],
-                    ['Electric generating sets and rotary converters ($688 million)', 1.24]
-                ]);
-
-                var options = {
-                    title: '',
-                    pieHole: 0.4,
-                };
-
-                var chart = new google.visualization.PieChart(document.getElementById('10_imports'));
-                chart.draw(data, options);
-            }
-            $(window).resize(function(){
-                drawChart();
-            });
-        </script> -->
-        <!-- End of chart js -->
-
-        <!-- Top 10 partners of country-->
+        <!-- Top 10 imports of country (Pie Chart) -->
         <script type="text/javascript">
-            google.charts.load('current', {'packages':['bar']});
-            google.charts.setOnLoadCallback(drawChart);
+            const cty = document.getElementById('10_imports');
 
-            function drawChart() {
-                var data = google.visualization.arrayToDataTable([
-                    ['', 'Percentage'],
-                    ["Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%",  15.6],
-                    ["Motor cars and other motor vehicles ($2.94 billion)", 5.33],
-                    ["Petroleum gases and hydrocarbons ($2.11 billion)", 3.82],
-                    ["Pharmaceuticals and Medicaments ($1.55 billion)", 2.8],
-                    ["Coal and solid fuels manufactured from coal ($1.17 billion)", 2.13],
-                    ["Electrical appliances including telephones ($1.01 billion)",  1.83],
-                    ["Iron and steel (952 million US$)", 1.72],
-                    ["Insecticides, rodenticides, fungicides, and herbicides ($912 million)", 1.65],
-                    ["Tractors ($792 million)", 1.43],
-                    ['Electric generating sets and rotary converters ($688 million)', 1.24]
-                ]);
-
-                var options = {
-                    width: 500,
-                    legend: { position: 'none' },
-                    chart: {
-                        title: '',
+            new Chart(cty, {
+                type: 'pie',
+                responsive : true,
+                data: {
+                    labels: [
+                        'Petroleum Oils And Mineral fuels',
+                        'Motor cars and other motor vehicles',
+                        'Petroleum gases and hydrocarbons ',
+                        'Pharmaceuticals and Medicaments',
+                        'Coal and solid fuels manufactured from coal',
+                        'Electrical appliances including telephones',
+                        'Iron and steel',
+                        'Insecticides, rodenticides, fungicides, and herbicides',
+                        'Tractors',
+                        'Electric generating sets and rotary converters'
+                    ],
+                    datasets: [{
+                        label: '',
+                        data: [15.6, 5.33, 3.82, 2.8, 2.13, 1.83, 1.72, 1.65, 1.43, 1.24],
+                        backgroundColor: [
+                            'rgb(255, 99, 132)',
+                            'rgb(54, 162, 235)',
+                            'rgb(255, 205, 86)',
+                            'rgb(230, 9, 56)',
+                            'rgb(6, 201, 81)',
+                            'rgb(219, 35, 11)',
+                            'rgb(12, 45, 194)',
+                            'rgb(158, 209, 4',
+                            'rgb(201, 113, 12)',
+                            'rgb(201, 12, 169)'
+                        ],
+                        hoverOffset: 10
+                    }]
+                },
+                options: {
+                    plugins : {
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            labels: {
+                                // This more specific font property overrides the global property
+                                font: {
+                                    size: 14
+                                }
+                            }
+                        },
                     },
-                    axes: {
-                        x: {
-                        0: { side: 'top', label: ''} // Top x-axis.
+                    layout: {
+                        padding: {
+                            bottom: 50
                         }
-                    },
-                    bar: { groupWidth: "90%" }
-                };
-
-                var chart = new google.charts.Bar(document.getElementById('10_partners'));
-
-                chart.draw(data, google.charts.Bar.convertOptions(options));
-            }
-            $(window).resize(function(){
-                drawChart();
+                    }
+                }
             });
+
+            module.exports = {
+                actions: [],
+                config: config,
+            };
         </script>
         <!-- End of chart js -->
 
+        <!-- Top 10 partners of country (Bar Chart) -->
         <script>
-            $(window).on("throttledresize", function (event) {
-                var options = {
-                    width: '100%',
-                    height: '100%'
-                };
+            const ctx = document.getElementById('10_partners');
 
-                var data = google.visualization.arrayToDataTable([]);
-                drawChart(data, options);
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ['China', 'India', 'Singapore', 'Indonesia', 'UAE', 'USA', 'Malaysia', 'Japan', 'Brazil', 'Saudi Arabia'],
+                datasets: [{
+                    label: 'TOP 10 PARTNERS OF COUNTRIES',
+                    data: [24.58, 14.85, 5.47, 5.01, 3.23, 3.1, 4.24, 3.63, 3.38, 3.32],
+                    borderWidth: 1
+                }]
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true
+                    }
+                }
+                }
             });
         </script>
+        <!-- End of Bar chart js -->
 
         <!-- Flag JS -->
-        <script>
+        <script type="text/javascript">
             function openCity(evt, cityName) {
                 var i, tabcontent, tablinks;
                 tabcontent = document.getElementsByClassName("tabcontent");

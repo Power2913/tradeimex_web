@@ -91,9 +91,8 @@
                                     <p class="text-white">
                                         At TradeImeX, we believe that work should complement your life, not hinder it. We understand
                                         the significance of work-life balance and strive to produce a terrain where our workers can
-                                        thrive in both their particular and professional lives. We provide remote work opportunities,
-                                        flexible work schedules, and extensive perks that promote our workers&#39; general well-being, at
-                                        TradeImeX.
+                                        thrive in both their particular and professional lives. We provide extensive perks that promote
+                                        our workers&#39; general well-being at TradeImeX.
                                     </p>
                                 </div>
                             </div>
@@ -223,6 +222,35 @@
                                     toes in our line of work because it moves quickly and is always changing.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Friendly Environment and Timely Celebrations -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2 slanted-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                        <img src="assets/img/custom-analyst.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                        <div class="text-content content-highlight">
+                            <h2 class="text-white">
+                                Friendly Environment and Timely Celebrations
+                            </h2>
+                            <p class="text-white">
+                                At TradeImeX ® Info Solution Pvt. Ltd., we take great pride in fostering a friendly environment
+                                and ensuring timely celebrations for our employees. We believe that a positive and
+                                supportive work atmosphere is crucial for productivity and overall well-being. Our team
+                                members are not just colleagues; we are a close-knit community that supports and
+                                encourages each other. From team-building activities to occasional celebrations, we make
+                                sure to cultivate a sense of camaraderie within our organization. Moreover, we understand
+                                the importance of timely celebrations in recognizing milestones and achievements. Whether
+                                it is an employee&#39;s work anniversary, a project completion, or a major company milestone,
+                                we take the time to acknowledge and appreciate these accomplishments.
+                            </p>
                         </div>
                     </div>
                 </div>

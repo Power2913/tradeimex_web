@@ -224,7 +224,7 @@
         </div>
 
         <!-- Discover World Trade Data -->
-        <div class="container-fluid pdt-5 pdb-2">
+        <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <h2>Discover World By Trade Data</h2>
