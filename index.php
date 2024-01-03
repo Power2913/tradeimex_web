@@ -320,26 +320,17 @@
                         TradeImeX offers unparalleled accuracy and comprehensiveness.
                     </p>
                 </div>
-            </div>
 
-            <!-- Discover New Posibilities -->
-            <div class="container">
-                <div class="text-content">
-                    <h3>
-                        Discover new possibilities in global trade with our Export-Import Data
-                    </h3>
-                </div>
-                <div class="text-content">
-                    <p>
-                        Find out how TradeImeX enables you to seize these possibilities and make the most
-                        of them on the global market with our exclusive export-import data.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Key Points -->
-            <div class="container pdt-2">
+                <!-- Key Points -->
                 <div class="row">
+                    <div class="text-content">
+                        <h3>Discover new possibilities in global trade with our Export-Import Data</h3>
+                        <p>
+                            Find out how TradeImeX enables you to seize these possibilities 
+                            and make the most of them on the global market with our 
+                            exclusive export-import data.
+                        </p>
+                    </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
@@ -1575,7 +1566,7 @@
         </div>
 
         <!-- Blog slider -->
-        <div class="container-fluid bg-dark-custom pdt-2 pdb-2">
+        <div class="container-fluid bg-dark-custom pdt-2 pdb-2 slanted-bottom">
             <div class="container">
                 <div class="text-content">
                     <!-- <span style="color: #e6f328;">Our Blogs</span> -->

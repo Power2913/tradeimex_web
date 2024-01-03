@@ -25,7 +25,8 @@
     <body>
         <?php include 'header.php';?>
 
-        <div class="container-fluid padding-tb bg-bluish">
+        <!-- Overview -->
+        <div class="container-fluid padding-tb bg-bluish slanted-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -61,7 +62,7 @@
         </div>
 
         <!-- Benefits with key points -->
-        <div class="container-fluid pdt-2 pdb-2 bg-bluish">
+        <div class="container-fluid pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <span>Benefits</span>
@@ -145,7 +146,7 @@
         </div>
 
         <!-- TradeImeX: Democratizing B/L Data -->
-        <div class="container-fluid bg-bluish padding-tb">
+        <div class="container-fluid padding-tb">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -165,7 +166,7 @@
         </div>
 
         <!-- Using B/L data to enhance business. -->
-        <div class="container-fluid bg-bluish padding-tb">
+        <div class="container-fluid padding-tb">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>

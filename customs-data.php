@@ -85,7 +85,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -110,13 +110,12 @@
                             <p>
                                 Staying updated with the latest market trends can be a daunting task. However, TradeImeX
                                 serves as a one-stop solution by providing real-time updates on customs data. This feature
-                                ensures that businesses are equipped with the most recent information, enabling them to
-                                adapt to changing market dynamics swiftly.
+                                ensures that businesses are equipped with the most recent information.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -131,7 +130,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -149,7 +148,7 @@
             </div>
         </div>
 
-        <!-- Dark BG Content -->
+        <!-- The role of customs data from TradeImeX Dark BG Content -->
         <div class="container-fluid padding-tb bg-dark-custom slanted-bottom">
             <div class="container">
                 <div class="row">
@@ -172,9 +171,9 @@
                     </div>
                 </div>
                 <!-- 4 Points -->
-                <div class="row padding-tb">
+                <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -189,7 +188,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -204,7 +203,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -219,7 +218,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-19">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -229,8 +228,7 @@
                             <p>
                                 International trade entails certain risks, such as fraud, intellectual property infringements, and
                                 the violation of trade regulations. TradeImeX customs data can help businesses mitigate these
-                                risks by providing information about the trading history and compliance records of potential
-                                partners or suppliers.
+                                risks by providing information about the trading history and compliance records.
                             </p>
                         </div>
                     </div>

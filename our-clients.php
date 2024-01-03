@@ -30,7 +30,7 @@
         <div class="container-fluid pdt-5 bg-bluish">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <h1 class="gradient-h2" style="font-size: 52px;">
                                 10,000+ Clients have been served so far
@@ -46,9 +46,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <!-- For Desktop, laptop, tablet & big screen -->
-                        <div id="anim" class="PartnersHeroGraphic" data-js-controller="PartnersHeroGraphic">
+                        <div id="anim" style="height: 515px !important;" class="PartnersHeroGraphic" data-js-controller="PartnersHeroGraphic">
                             <div class="PartnersHeroGraphicLogo" data-js-controller="PartnersHeroGraphicLogo" data-shade="lightblue" style="--partnersHeroGraphicLogoBackground:#E2E2E2; transform: translate3d(417.635px, -45px, 0px); transition: all 0.8s ease 0s;">
                                 <div class="PartnersHeroGraphicLogo__wrapper" data-js-target="PartnersHeroGraphicLogo.wrapper" style="opacity: 1;">
                                     <img id="logoss" src="assets/clients/BASF.png" width="70" height="70">

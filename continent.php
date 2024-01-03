@@ -988,7 +988,7 @@
         </div>
 
         <!-- Top 10 partners of continent-->
-        <div class="container-fluid pdb-5">
+        <div class="container-fluid pdb-5 pdt-2">
             <div class="container">
                 <div class="text-content">
                     <span>Top 10 Partners Of Countries</span>

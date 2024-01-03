@@ -149,9 +149,29 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
+                            <?php
+                                // if($role == 'import') {
+                                //     include 'backend/dbconfig.php';
+                                //     $sql = "SELECT * FROM import Where country_code = $id";
+                                //     $result = $conn->query($sql);
+                                //     if ($result->num_rows > 0) {
+                                //         while($row = $result->fetch_assoc()) {
+                                //             echo 
+                                //             '<span>Botswana Import</span>
+                                //             <h1 class="gradient-h2" style="font-size: 48px;font-weight: 900;">
+                                //                 '.$row['mf_content_heading'].'
+                                //             </h1>';
+                                //         }
+                                //     }
+                                // }
+                                // else {
+                                //     echo 
+                                //     'testing error';
+                                // }
+                            ?>
                             <span>Botswana Import</span>
                             <h1 class="gradient-h2" style="font-size: 48px;font-weight: 900;">
-                                BOTSWANA IMPORT DATA
+                                Botswana Import Data
                             </h1>
                             <p>
                                 Botswana, also known as the Republic of Botswana, is a country surrounded 
@@ -424,7 +444,7 @@
         </div>
 
         <!-- Top 10 Imports Exports of country -->
-        <div class="container-fluid pdb-5">
+        <div class="container-fluid pdb-5 pdt-2">
             <div class="container">
                 <div class="text-content">
                     <span>Partners</span>

@@ -82,7 +82,7 @@
                         <h3>Key Benefits of TradeImeX Statistical Data</h3>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -93,12 +93,12 @@
                                 In today&#39;s global economy, understanding market
                                 dynamics is crucial for success. Statistical data provided by TradeImeX allows
                                 businesses to gain a comprehensive understanding of market trends, customer
-                                preferences, and emerging opportunities.
+                                preferences.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -108,13 +108,12 @@
                             <p>
                                 By tracking market trends, businesses can adapt their
                                 strategies to meet changing consumer demands. Statistical data offers real-time data to
-                                help businesses identify emerging trends, ensuring they remain relevant and
-                                competitive.
+                                help businesses identify emerging trends.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -124,13 +123,12 @@
                             <p>
                                 Statistical data guides strategic planning by providing
                                 objective evidence and insights. Whether it&#39;s forecasting market demand, optimizing
-                                supply chains, or developing pricing strategies, statistical analysis helps businesses
-                                make informed decisions that align with their goals.
+                                supply chains, or developing pricing strategies.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>

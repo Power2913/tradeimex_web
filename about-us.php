@@ -71,7 +71,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content">
                             <div class="icon" style="justify-content: center;">
-                                <img src="assets/country/Accuracy.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/career.svg" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-center">A One-Stop Solution</h3>

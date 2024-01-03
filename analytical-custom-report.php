@@ -117,7 +117,6 @@
                 <div class="row">
                     <div class="text-content">
                         <h3>Benefits of Customized Analytical Reports from TradeImeX</h3>
-                        <br>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-15">
@@ -190,9 +189,11 @@
                 <div class="row">
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
-                            <h3>
-                                BE AWARE OF THE COMPANY&#39;S NATURE AND POSITION IN THE MARKET
-                            </h3>
+                            <div class="head">
+                                <h3>
+                                    BE AWARE OF THE COMPANY&#39;S NATURE AND POSITION IN THE MARKET
+                                </h3>
+                            </div>
                             <p>
                                 Marketers can learn everything there is to know about a firm by conducting a 
                                 market analysis. Details could include the company&#39;s goals and mission, 
@@ -203,7 +204,9 @@
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
-                            <h3>LEARN MORE ABOUT A PRODUCT&#39;S GLOBAL TRADE</h3>
+                            <div class="head">
+                                <h3>LEARN MORE ABOUT A PRODUCT&#39;S GLOBAL TRADE</h3>  
+                            </div>
                             <p>
                                 A marketer might develop prospective supply chain strategies for a particular commodity to
                                 learn about market trends and consumption patterns by conducting a market study.
@@ -212,7 +215,9 @@
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
-                            <h3>TIME AND EFFICIENCY SAVING</h3>
+                            <div class="head">
+                                <h3>TIME AND EFFICIENCY SAVING</h3>
+                            </div>
                             <p>
                                 Marketers used to thoroughly research every nation before deciding on a possible market and
                                 product. Thanks to market research, marketers can now obtain data on multiple nations
@@ -222,7 +227,9 @@
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-18">
-                            <h3>BETTER ANALYSIS IS ASSISTED BY INTERACTIVE PLATFORMS</h3>
+                            <div class="head">
+                                <h3>BETTER ANALYSIS IS ASSISTED BY INTERACTIVE PLATFORMS</h3>
+                            </div>
                             <p>
                                 These days, it&#39;s easy to examine reports engagingly and dynamically with the help of a variety of
                                 interactive web tools and platforms. You can use a variety of tools when you have access to the

@@ -47,7 +47,7 @@
         </div>
 
         <!-- Room For Growth -->
-        <div class="container-fluid bg-bluish pdt-5 pdb-2 slanted-bottom">
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
@@ -229,11 +229,11 @@
         </div>
 
         <!-- Friendly Environment and Timely Celebrations -->
-        <div class="container-fluid bg-bluish pdt-5 pdb-2 slanted-bottom">
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                        <img src="assets/img/custom-analyst.jpg" width="100%">
+                        <img src="assets/img/custom-analyst-removebg-preview.png" width="100%">
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
                         <div class="text-content content-highlight">

@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-bluish pdt-2 pdb-2">
+        <div class="container-fluid bg-bluish pdb-2">
             <div class="container">
                 <div class="terms-list">
                     <li>

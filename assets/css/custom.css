@@ -1636,7 +1636,8 @@ padding-top:100vh ;
     /* terms page */
     .terms-list li{
         line-height: 1.8;
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 600;
         padding: 10px 10px 10px 10px;
         color: #425466;
     }
@@ -2435,7 +2436,7 @@ padding-top:100vh ;
         padding-top: var(--partnersHeroGraphicGutter);
         padding-left: var(--partnersHeroGraphicGutter);
         align-self: end;
-        left: 18%;
+        left: 22%;
     }
 
     @media (min-width:900px) {
