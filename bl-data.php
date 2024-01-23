@@ -27,7 +27,7 @@
 
         <!-- Overview -->
         <div class="container-fluid padding-tb bg-bluish slanted-bottom">
-            <div class="container">
+            <div class="container slanted-bottom-mobile">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="text-content">
@@ -52,9 +52,9 @@
                             <li class="list">POD codes, trunk POL codes, etc.</li>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-bluish padding-tb flex" style="justify-content: center;">
-                        <div class="data-img" style="width: 70%;">
-                            <img src="assets/img/BL Data.png">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex" style="justify-content: center;">
+                        <div class="data-img">
+                            <img src="assets/img/Customs Data.png">
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
             <div class="container pdt-2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/revenue.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/automated.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/process.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/survey.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>

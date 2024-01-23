@@ -14,8 +14,7 @@
         <?php include 'link.php';?>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-        <script src="assets/globe/main.js"></script>
-        <script src="assets/globe/src/main.js"></script>
+        <script src="assets/js/globe.js"></script>
         <style>
             .mainDiv {
                 display: flex;
@@ -32,7 +31,7 @@
                 width: 45%; /* Adjust as needed */
                 background-color: #f7f1f1;
                 position: relative;
-                bottom: 0;
+                bottom: 0;  
                 right: 0;
                 z-index: 1; /* Ensure the globe is on top */
             }
@@ -53,7 +52,7 @@
                                     ACCESS GLOBAL TRADE DATA OF MORE THAN 80 COUNTRIES
                                 </h1>
                             </div>
-                            <p class="text-black" style="color:#fff">
+                            <p class="text-black">
                                 TradeImeX is a leading global trade data provider, offering comprehensive import-export data
                                 and trade data information for more than 80 countries and across 6 continents. Our platform
                                 provides valuable insights and information along with market research to businesses of all sizes,
@@ -1566,7 +1565,7 @@
         </div>
 
         <!-- Blog slider -->
-        <div class="container-fluid bg-dark-custom pdt-2 pdb-2 slanted-bottom">
+        <div class="container-fluid bg-dark-custom pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <!-- <span style="color: #e6f328;">Our Blogs</span> -->
@@ -1597,8 +1596,9 @@
                         <div class="blog_card_content">
                             <h3>What are the trade relations between the US and Mexico?</h3>
                             <p>
-                                According to the US and Mexico trade data, the total
-                                bilateral trade and trade balance between the US...
+                                According to the Philippines export data, the total amount 
+                                of electronic exports from the Philippines accounted for $43.55 
+                                billion in 2022...
                             </p>
                             <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
                                 <h6>Read More</h6>
@@ -1693,6 +1693,8 @@
                 evt.currentTarget.className += " active-1"
             }
         </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js" integrity="sha512-vnmn/Qqn6aG0POAc9mIGzjq0IybrvxJXYDafNvp9JSnDGxeF3pbkSqLvf+YGd5ku63pT7sa/jxHn7/d0mU8+tA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- Google Tag Manager (noscript) -->
         <noscript>

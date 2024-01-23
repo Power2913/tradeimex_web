@@ -43,7 +43,7 @@ setInterval(() => {
         var thirdRightValue = rightValue + 120 + 180;
         if (pos >= 3) {
             thirdRightValue += -40;
-            console.log('adding third layer')
+            // console.log('adding third layer')
         }
 
         function rotateSLide(pos, transition, opacity, left, top) {
@@ -93,7 +93,7 @@ setInterval(() => {
         }
 
         value += 42 * (pos)
-        console.log('counterSlider:' + counterSlider);
+        // console.log('counterSlider:' + counterSlider);
         counterSlider++
 
 

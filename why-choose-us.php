@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>
                                     100% ACCURATE DATA
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>
                                     UPDATED DATABASE
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>
                                     EXCLUSIVE REPORTS
@@ -102,13 +102,13 @@
                                 We bring you the most exclusive information about each country’s
                                 global trade data. TradeImeX gathers enormous volumes of data from multiple sources.
                                 Our team of professionals carefully examines and gathers important information from
-                                this data to provide one-of-a-kind trade data reports that are tailored to the particular
-                                requirements of companies.
+                                this data to provide one-of-a-kind trade data reports that are tailored to the 
+                                particular requirements.
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-16">
                             <div class="head">
                                 <h3>
                                     POCKET FRIENDLY PACKAGES
@@ -266,7 +266,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-19">
+                            <div class="card-content cdh-15">
                                 <div class="head">
                                     <h3>
                                         Entirely accurate data
@@ -276,12 +276,12 @@
                                     We guarantee to provide a completely reliable database. With TradeImeX you get 100%
                                     accurate data for your business, so that you can stay ahead of your competitors in the
                                     global trade market. Our import-export data is verified in our customs database with
-                                    reliable accuracy and on point global trade data.
+                                    reliable accuracy.
                                 </p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-19">
+                            <div class="card-content cdh-15">
                                 <div class="head">
                                     <h3>
                                         Completely recent database
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-19">
+                            <div class="card-content cdh-15">
                                 <div class="head">
                                     <h3>
                                         Data Sourcing and accuracy
@@ -311,7 +311,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-19">
+                            <div class="card-content cdh-15">
                                 <div class="head">
                                     <h3>
                                         Comprehensible packages
@@ -321,8 +321,7 @@
                                     We charge incredibly low prices for our data-providing services. TradeImeX offers
                                     comprehensive packages with a range of features and benefits that can streamline your
                                     import and export business in the world of global trade. Get exclusive and accurate
-                                    trade data at extremely affordable packages and explore the world of global trade like
-                                    never before.
+                                    trade data at extremely affordable packages.
                                 </p>
                             </div>
                         </div>

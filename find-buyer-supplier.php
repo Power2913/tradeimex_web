@@ -141,7 +141,7 @@
         </div>
 
         <!-- Dark BG Content -->
-        <div class="container-fluid padding-tb bg-dark-custom slanted-bottom">
+        <div class="container-fluid padding-tb bg-dark-custom">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
@@ -231,7 +231,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -246,7 +246,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -260,7 +260,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card-content cdh-16">
+                        <div class="card-content cdh-17">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>

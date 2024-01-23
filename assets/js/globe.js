@@ -1,358 +1,341 @@
-// // Set up scene
-// const scene = new THREE.Scene();
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.module.min.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.126.0/examples/jsm/controls/OrbitControls.js';
+import 'https://unpkg.co/gsap@3/dist/gsap.min.js';
 
-// // Set up camera
-// const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-// camera.position.z = 5;
-
-// // Set up renderer
-// const renderer = new THREE.WebGLRenderer({ alpha: true });
-// renderer.setSize(window.innerWidth, window.innerHeight);
-// document.body.appendChild(renderer.domElement);
-
-// // Create a transparent globe
-// const geometry = new THREE.SphereGeometry(2, 32, 32);
-// const material = new THREE.MeshPhongMaterial({
-//     color: 0x2194CE,
-//     emissive: 0x072534,
-//     side: THREE.DoubleSide,
-//     transparent: true,
-//     opacity: 0.7
-// });
-// const globe = new THREE.Mesh(geometry, material);
-// scene.add(globe);
-
-// // Set up lighting
-// const light = new THREE.PointLight(0xFFFFFF);
-// light.position.set(10, 10, 10);
-// scene.add(light);
-
-// // Handle window resize
-// window.addEventListener('resize', () => {
-//     const newWidth = window.innerWidth;
-//     const newHeight = window.innerHeight;
-
-//     camera.aspect = newWidth / newHeight;
-//     camera.updateProjectionMatrix();
-
-//     renderer.setSize(newWidth, newHeight);
-// });
-
-// // Animation loop
-// const animate = () => {
-//     requestAnimationFrame(animate);
-
-//     // Rotate the globe
-//     globe.rotation.y += 0.005;
-
-//     renderer.render(scene, camera);
-// };
-
-// animate();
+const demo = document.querySelector('.demo');
+const container = document.querySelector('.animation-wrapper');
+const globeCanvas = container.querySelector('#globe-3d');
+const globeOverlayCanvas = container.querySelector('#globe-2d-overlay');
+const popup = container.querySelector('.globe-popup');
 
 
-
-container1= document.getElementById('globeCanvas');
-
-//SETUP SCENE
-const scene = new THREE.Scene();
-
-
-//SETUP RENDERER
-const renderer = new THREE.WebGLRenderer( { alpha: true } );
-renderer.setClearColor( 0x000000, 0 );
-renderer.setSize(container1.offsetHeight, container1.offsetHeight);
-scene.background = null
-document.body.appendChild(renderer.domElement);
-
-//SETUP lights
-var light1 = new THREE.PointLight(0x5a54ff, 0.75);
-light1.position.set(-150, 150, -50);
-
-var light2 = new THREE.PointLight(0x4158f6, 0.75);
-light2.position.set(-400, 200, 150);
-
-var light3 = new THREE.PointLight(0x803bff, 0.7);
-light3.position.set(100, 250, -100);
-
-scene.add(light1, light2, light3);
-
-//SETUP GEOMETRY
-//setuphalo
-const atmosphereShader = {
-  'atmosphere': {
-    uniforms: {},
-    vertexShader: [
-      'varying vec4 vNormal;',
-      'void main() {',
-      'vNormal = normalize( normalMatrix * normal );',
-      'gl_Position = projectionMatrix * modelViewMatrix * vec5( position, 1.0 );',
-      '}'
-    ].join('\n'),
-    fragmentShader: [
-      'varying vec4 vNormal;',
-      'void main() {',
-      'float intensity = pow( 0.100 - dot( vNormal, vec4( 0, 0, 1.0 ) ), 6.0 );',
-      'gl_FragColor = vec4( .28, .48, 1.0, 1.0 ) * intensity;',
-      '}'
-    ].join('\n')
-  }
-}
-const atmosphereGeometry = new THREE.SphereGeometry(2, 64, 64);
-
-const atmosphereMaterial = new THREE.ShaderMaterial({
-  uniforms: THREE.UniformsUtils.clone(atmosphereShader['atmosphere'].uniforms),
-  vertexShader: atmosphereShader['atmosphere'].vertexShader,
-  fragmentShader: atmosphereShader['atmosphere'].fragmentShader,
-  side: THREE.BackSide,
-  blending: THREE.AdditiveBlending,
-  transparent: false
-});
-const atm = new THREE.Mesh(atmosphereGeometry, atmosphereMaterial);
-atm.scale.set(1.05, 1.05, 1.05);
-scene.add(atm);
-
-atm.position.set(-.1, .1, 0);
-
-//setup globe
-const sphereGeometry = new THREE.SphereGeometry(2, 64, 64);
-const sphereMaterial = new THREE.MeshLambertMaterial({
-  color: 0xeeeeee
-});
-const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-sphere.castShadow = true;
-sphere.receiveShadow = true;
-scene.add(sphere);
-
-//setup map overlay
-const loader = new THREE.TextureLoader();
-const overlayMaterial = new THREE.MeshBasicMaterial({
-  map: loader.load('https://i.imgur.com/JLFp6Ws.png'),
-  transparent: true
-});
-
-const overlaySphereGeometry = new THREE.SphereGeometry(2.003, 64, 64);
-const overlaySphere = new THREE.Mesh(overlaySphereGeometry, overlayMaterial);
-overlaySphere.castShadow = true;
-overlaySphere.receiveShadow = true;
-sphere.add(overlaySphere);
-
-//set up bezier curves //
-var numPoints = 80;//slow nd hight pointer
- var start = new THREE.Vector3(-5, 0, 20);
-var start = new THREE.Vector3(0, 1.5, 1.3);
-var middle = new THREE.Vector3(.6, .6, 3.2);
-var end = new THREE.Vector3(1.5, -1, .8);
-
-var curveQuad = new THREE.QuadraticBezierCurve3(start, middle, end);
-
-  var tube1 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  const tubeMaterial = new THREE.MeshBasicMaterial({
-    color: 0xd965fa
-  });
-  tube1.setDrawRange(0, 10000);
-  var curveMesh1 = new THREE.Mesh(tube1, tubeMaterial);
-  sphere.add(curveMesh1);
-
-  var tube2 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube2.setDrawRange(0, 10000);
-  var curveMesh2 = new THREE.Mesh(tube2, tubeMaterial);
-  sphere.add(curveMesh2);
-  curveMesh2.rotation.y = .75
-  curveMesh2.rotation.z = .75
-  curveMesh2.rotation.x = -.1
-
-  var tube3 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube3.setDrawRange(0, 10000);
-  var curveMesh3 = new THREE.Mesh(tube3, tubeMaterial);
-  sphere.add(curveMesh3);
-  curveMesh3.rotation.y = 2.1
-  curveMesh3.rotation.z = .5
-  curveMesh3.rotation.x = .2
-
-  var tube4 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube4.setDrawRange(0, 10000);
-  var curveMesh4 = new THREE.Mesh(tube4, tubeMaterial);
-  sphere.add(curveMesh4);
-  curveMesh4.rotation.y = 2.3
-  curveMesh4.rotation.z = .8
-  curveMesh4.rotation.x = .2
-
-  var tube5 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube5.setDrawRange(0, 10000);
-  var curveMesh5 = new THREE.Mesh(tube5, tubeMaterial);
-  sphere.add(curveMesh5);
-  curveMesh5.rotation.y = 2.9
-  curveMesh5.rotation.z = 1.1
-  curveMesh5.rotation.x = 2
-
-  var tube6 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube6.setDrawRange(0, 10000);
-  var curveMesh6 = new THREE.Mesh(tube6, tubeMaterial);
-  sphere.add(curveMesh6);
-  curveMesh6.rotation.y = 7.1
-  curveMesh6.rotation.z = 1
-  curveMesh6.rotation.x = 4.4
-
-  var tube7 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube7.setDrawRange(0, 10000);
-  var curveMesh7 = new THREE.Mesh(tube7, tubeMaterial);
-  sphere.add(curveMesh7);
-  curveMesh7.rotation.y = 2.1
-  curveMesh7.rotation.z = 3
-  curveMesh7.rotation.x = 4.4
-
-  var tube8 = new THREE.TubeGeometry(curveQuad, numPoints, 0.01, 20, false);
-  tube8.setDrawRange(0, 10000);
-  var curveMesh8 = new THREE.Mesh(tube8, tubeMaterial);
-  sphere.add(curveMesh8);
-  curveMesh8.rotation.y = 2.5
-  curveMesh8.rotation.z = 1
-  curveMesh8.rotation.x = 1.1
-
-
-
-  //set up spires
-  const cylinderGeometry = new THREE.CylinderGeometry(.01, .01, 4.25, 32);
-  const cylinderMaterial = new THREE.MeshBasicMaterial({
-    color: 0x00ddff,
-    transparent: false,
-    opacity: .5
-  });
-
-const cylinder1 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder1);
-cylinder1.rotation.x = .75;
-
-const cylinder7 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder7);
-cylinder7.rotation.x = .74;
-cylinder7.rotation.z = -.05;
-
-const cylinder8 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder8);
-cylinder8.rotation.x = .72;
-cylinder8.rotation.z = -.07;
-
-
-const cylinder2 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder2);
-cylinder2.rotation.x = -1;
-cylinder2.rotation.z = 2;
-
-const cylinder3 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder3);
-cylinder3.rotation.x = .8;
-cylinder3.rotation.z = .5;
-
-const cylinder4 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder4);
-cylinder4.rotation.x = 1.05;
-cylinder4.rotation.z = 0;
-
-const cylinder5 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder5);
-cylinder5.rotation.x = 2;
-cylinder5.rotation.z = 3;
-
-const cylinder6 = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
-sphere.add(cylinder6);
-cylinder6.rotation.x = .8;
-cylinder6.rotation.z = 2.5;
-
-//Detect click-drag rotation
-var isDragging = false;
-var previousMousePosition = {
-  x: 0,
-  y: 0
-};
-  $("#globeCanvas").on('mousedown', function(e) {
-      isDragging = true;
-    })
-    .on('mousemove', function(e) {
-      var deltaMove = {
-        x: e.offsetX - previousMousePosition.x
-      };
-
-      if (isDragging) {
-        sphere.rotation.y += deltaMove.x * .004;
-      }
-
-      previousMousePosition = {
-        x: e.offsetX,
-        y: e.offsetY
-      };
+document.addEventListener('DOMContentLoaded', () => {
+    gsap.set(demo, {
+      height: window.innerHeight
     });
-    
 
-  $(document).mouseup(function() {
-    isDragging = false;
-  });
+    let surface = new Surface();
 
-  $("#canvas").mouseout(function() {
-    isDragging = false;
-  });
+    new THREE.TextureLoader().load(
+        'https://ksenia-k.com/img/threejs/earth-map.jpeg',
+        (mapTex) => {
+            surface.earthTexture = mapTex;
+            surface.earthTexture.repeat.set(1, 1);
+            surface.earthTextureData = surface.getImageData();
+            surface.createGlobe();
+            surface.addAnchor();
+            surface.addCanvasEvents();
+            surface.updateDotSize();
+            surface.loop();
+        });
 
-  //sizes
-  const sizes = {
-    width: window.innerWidth,
-    height: window.innerHeight
-  }
+        window.addEventListener('resize', () => {
+            gsap.set(demo, {
+                height: window.innerHeight
+            });
 
-  window.addEventListener('resize', () => {
-    //update sizes
-    sizes.width = window.innerWidth
-    sizes.height = window.innerHeight
+            surface.updateSize();
+            surface.setupOverlayGraphic();
+            surface.updateDotSize();
+            surface.addCanvasEvents();
+        }, false);
+	
+        gsap.to('.title', {
+            delay: 5,
+            duration: .2,
+            opacity: 1
+        })
+    });
 
-    //update camera
-    camera.aspect = sizes.width / sizes.height
-    camera.updateProjectMatrix()
 
-  })
+class Surface {
+    constructor() {
+        this.renderer = new THREE.WebGLRenderer({canvas: globeCanvas, alpha: true});
+        this.scene = new THREE.Scene();
+        this.camera = new THREE.OrthographicCamera(-1, 1, 1, -1, .1, 2);
+        this.camera.position.z = 1.1;
+        this.updateSize();
 
-  //SETUP camera
-  const camera = new THREE.PerspectiveCamera(45, 900 / 900);
-  camera.position.x = 0
-  camera.position.y = 0
-  camera.position.z = 7
+        this.rayCaster = new THREE.Raycaster();
+        this.rayCaster.far = 1.15;
+        this.mouse = new THREE.Vector2();
+        this.coordinates2D = [0, 0];
 
-  var renderCount = 0;
-  var currentGrowing = 0;
-  var tubes = [tube1, tube2, tube3, tube4, tube5, tube6, tube7, tube8]
+        this.setupOverlayGraphic();
+        this.createOrbitControls();
 
-  function GrowTube(index, renderCount) {
-    renderCount = Math.ceil(renderCount / 3) * 3
-    tubes[index].setDrawRange(0, renderCount)
-    if (index > 2) {
-      tubes[index - 3].setDrawRange(renderCount, 10000)
-    } else {
-      tubes[(tubes.length - 3) + index].setDrawRange(renderCount, 10000)
+        this.clock = new THREE.Clock();
+        this.clickTime = 0;
+
+        this.group = new THREE.Group();
+        this.group.scale.setScalar(0.9);
+        this.scene.add(this.group);
+
+        this.selectionVisible = false;
     }
-  }
 
-//ANIMATION LOOP
-const animate = function() {
-  if (renderCount < 10000) {
-    renderCount += 140;
-    GrowTube(currentGrowing, renderCount);
-  } else {
-    renderCount = 0;
-
-    if (currentGrowing >= tubes.length - 1) {
-      currentGrowing = 0;
-    } else {
-      currentGrowing++;
+    createOrbitControls() {
+        this.controls = new OrbitControls(this.camera, globeCanvas);
+        this.controls.enablePan = true;
+        this.controls.enableZoom = false;
+        this.controls.enableDamping = true;
+        this.controls.minPolarAngle = .4 * Math.PI;
+        this.controls.maxPolarAngle = .4 * Math.PI;
+        this.controls.autoRotate = true;
     }
-  }
 
-  requestAnimationFrame(animate);
+    createGlobe() {
+        const globeGeometry = new THREE.IcosahedronGeometry(1, 14);
+        this.mapMaterial = new THREE.ShaderMaterial({
+        vertexShader: document.getElementById('vertex-shader-map').textContent,
+        fragmentShader: document.getElementById('fragment-shader-map').textContent,
+        uniforms: {
+            u_visibility: {type: 't', value: this.earthTexture},
+            u_size: {type: 'f', value: 0},
+            u_color_main: {type: 'v3', value: new THREE.Color(0xc1c1c2)},
+            u_clicked: {type: 'v3', value: new THREE.Vector3(.0, .0, 1.)},
+            u_time_since_click: {value: 3.},
+        },
+        alphaTest: false,
+        transparent: true
+        });
 
-  if (!isDragging) {
-    sphere.rotation.y += 0.007; //global round speed  current 0150  before //0005 
-  }
+        const globe = new THREE.Points(globeGeometry, this.mapMaterial);
+        this.group.add(globe);
 
-  renderer.render(scene, camera);
-  container1.appendChild(renderer.domElement);
-};
+        this.blackGlobe = new THREE.Mesh(globeGeometry, new THREE.MeshBasicMaterial({
+            color: 0x2C2C2E,
+            transparent: true,
+            opacity: 0.2
+        }));
+        this.blackGlobe.scale.setScalar(0.99);
+        this.group.add(this.blackGlobe);
+    }
 
-animate();
+    addAnchor() {
+      const geometry = new THREE.SphereGeometry(.02, 16, 16);
+      const material = new THREE.MeshBasicMaterial({
+          color: 0x4BC0C8,
+          transparent: true,
+          opacity: 1
+      });
+      this.anchor = new THREE.Mesh(geometry, material);
+      this.group.add(this.anchor);
+    }
+
+    setupOverlayGraphic() {
+        this.overlayCtx = globeOverlayCanvas.getContext('2d');
+        this.overlayCtx.strokeStyle = '#4BC0C8';
+        this.overlayCtx.lineWidth = 5;
+        this.overlayCtx.lineCap = 'round';
+    }
+
+    updateOverlayGraphic() {
+        if (this.anchor) {
+            let activePointPosition = this.anchor.position.clone();
+            activePointPosition.applyMatrix4(this.group.matrixWorld);
+            const activePointPositionProjected = activePointPosition.clone();
+            activePointPositionProjected.project(this.camera);
+            this.coordinates2D[0] = (activePointPositionProjected.x + 1) * container.offsetWidth * .5;
+            this.coordinates2D[1] = (-activePointPositionProjected.y + 1) * container.offsetHeight * .5;
+
+            const matrixWorldInverse = this.controls.object.matrixWorldInverse;
+            activePointPosition.applyMatrix4(matrixWorldInverse);
+
+            if (activePointPosition.z > -1) {
+                if (this.selectionVisible === false) {
+                    this.selectionVisible = true;
+                    this.showPopupAnimation(false);
+                }
+
+                let popupX = this.coordinates2D[0];
+                let popupY = this.coordinates2D[1];
+                popupX -= (activePointPositionProjected.x * container.offsetWidth * .3);
+                const upDown = (activePointPositionProjected.y > .6);
+                popupY += (upDown ? 20 : -20);
+                gsap.set(popup, {
+                  x: popupX,
+                  y: popupY,
+                  xPercent: -50,
+                  yPercent: upDown ? 0 : -100
+                });
+
+                popupY += (upDown ? -10 : 10);
+                const curveStartX = this.coordinates2D[0];
+                const curveStartY = this.coordinates2D[1];
+                let curveMidX = popupX + activePointPositionProjected.x * 100;
+                const curveMidY = popupY + (upDown ? -.5 : .1) * this.coordinates2D[1];
+
+                this.drawPopupConnector(curveStartX, curveStartY, curveMidX, curveMidY, popupX, popupY);
+            } 
+            else {
+              if (this.selectionVisible) {
+                  this.hidePopupAnimation();
+              }
+              this.selectionVisible = false;
+            }
+        }
+    }
+
+    addCanvasEvents() {
+        container.addEventListener('mousemove', (e) => {
+            updateMousePosition(e.clientX, e.clientY, this);
+        });
+
+        function updateMousePosition(eX, eY, surface) {
+            const x = eX - container.offsetLeft;
+            const y = eY - container.offsetTop;
+            surface.mouse.x = x / container.offsetWidth * 2 - 1;
+            surface.mouse.y = -(y / container.offsetHeight) * 2 + 1;
+        }
+
+        container.addEventListener('click', (e) => {
+            updateMousePosition(
+                e.targetTouches ? e.targetTouches[0].pageX : e.clientX,
+                e.targetTouches ? e.targetTouches[0].pageY : e.clientY,
+                this);
+            this.checkIntersects();
+            if (this.landIsHovered) {
+              const intersects = this.rayCaster.intersectObject(this.blackGlobe);
+              if (intersects.length) {
+                  this.anchor.position.set(intersects[0].face.normal.x, intersects[0].face.normal.y, intersects[0].face.normal.z);
+                  this.mapMaterial.uniforms.u_clicked.value = this.anchor.position;
+                  popup.innerHTML = this.getLatLong();
+                  this.showPopupAnimation(true);
+                    gsap.delayedCall(.15, () => {
+                        this.clickTime = this.clock.getElapsedTime();
+                    })
+              }
+            }
+        });
+    }
+
+    drawPopupConnector(startX, startY, midX, midY, endX, endY) {
+        this.overlayCtx.clearRect(0, 0, container.offsetWidth, container.offsetHeight);
+        this.overlayCtx.beginPath();
+        this.overlayCtx.shadowOffsetX = startX > endX ? -4 : 4;
+        this.overlayCtx.moveTo(startX, startY);
+        this.overlayCtx.quadraticCurveTo(midX, midY, endX, endY);
+        this.overlayCtx.stroke();
+    }
+
+    showPopupAnimation(lifted) {
+        let positionLifted = this.anchor.position.clone();
+        if (lifted) {
+            positionLifted.multiplyScalar(1.1);
+        }
+        gsap.timeline({ })
+            .fromTo(this.anchor.position, {
+                x: positionLifted.x,
+                y: positionLifted.y,
+                z: positionLifted.z,
+            }, {
+                duration: .35,
+                x: this.anchor.position.x,
+                y: this.anchor.position.y,
+                z: this.anchor.position.z,
+                ease: 'back(4).out'
+            }, 0)
+            .to(this.anchor.material, {
+                duration: .2,
+                opacity: 1,
+            }, 0)
+            .fromTo(globeOverlayCanvas, {
+			  		 opacity: 0
+		  		}, {
+                duration: 0.3,
+                opacity: 1
+            }, .15)
+            .fromTo(popup, {
+                opacity: 0,
+                scale: .9,
+                transformOrigin: 'center bottom'
+            }, {
+                duration: 0.1,
+                opacity: 1,
+                scale: 1,
+            }, .15 + .1)
+    }
+
+    hidePopupAnimation() {
+        gsap.timeline({ })
+            .to(this.anchor.material, {
+                duration: .1,
+                opacity: .2,
+            }, 0)
+            .to(globeOverlayCanvas, {
+                duration: 0.15,
+                opacity: 0
+            }, 0)
+            .to(popup, {
+                duration: 0.15,
+                opacity: 0,
+                scale: 0.9,
+                transformOrigin: 'center bottom'
+            }, 0);
+    }
+
+    getImageData() {
+        const image = this.earthTexture.image;
+        const canvas = document.createElement('canvas');
+        canvas.width = image.width;
+        canvas.height = image.height;
+        const context = canvas.getContext( '2d' );
+        context.drawImage(image, 0, 0);
+        return context.getImageData(0, 0, image.width, image.height);
+    }
+
+    getLatLong() {
+        const pos = this.anchor.position;
+        const lat = 90 - (Math.acos(pos.y)) * 180 / Math.PI;
+        const lng = ((270 + (Math.atan2(pos.x, pos.z)) * 180 / Math.PI) % 360) - 180;
+        return lat.toFixed(6) + ',&nbsp;' + lng.toFixed(6);
+    }
+
+    checkIntersects() {
+        let isLand = (imageData, x, y) => {
+            x = Math.floor(x * imageData.width);
+            y = Math.floor((1 - y) * imageData.height);
+            const position = (x + imageData.width * y) * 4;
+            const data = imageData.data;
+            return data[position] < 100;
+        };
+        this.rayCaster.setFromCamera(this.mouse, this.camera);
+        const intersects = this.rayCaster.intersectObject(this.blackGlobe);
+        if (intersects.length) {
+            this.landIsHovered = isLand(this.earthTextureData, intersects[0].uv.x, intersects[0].uv.y);
+            document.body.style.cursor = this.landIsHovered ? 'pointer' : 'auto';
+        } else {
+            document.body.style.cursor = 'auto';
+        }
+    }
+
+    render() {
+        this.mapMaterial.uniforms.u_time_since_click.value = this.clock.getElapsedTime() - this.clickTime;
+        this.updateOverlayGraphic();
+        this.controls.update();
+        this.checkIntersects();
+        this.renderer.render(this.scene, this.camera);
+    }
+
+    loop() {
+        this.render();
+        requestAnimationFrame(this.loop.bind(this));
+    }
+
+    updateSize() {
+        const minSide = .85 * Math.min(window.innerWidth, window.innerHeight);
+        container.style.width = minSide + 'px';
+        container.style.height = minSide + 'px';
+        this.renderer.setSize(minSide, minSide);
+        this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        this.camera.updateProjectionMatrix();
+        globeOverlayCanvas.width = minSide;
+        globeOverlayCanvas.height = minSide;
+    }
+
+    updateDotSize() {
+        this.mapMaterial.uniforms.u_size.value = .03 * container.offsetWidth;
+    }
+}
+

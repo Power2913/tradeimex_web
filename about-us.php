@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-20">
                             <div class="icon" style="justify-content: center;">
                                 <img src="assets/img/career.svg" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-20">
                             <div class="icon" style="justify-content: center;">
                                 <img src="assets/country/Updated Data.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-20">
                             <div class="icon" style="justify-content: center;">
                                 <img src="assets/country/Exclusive.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content">
+                        <div class="card-content cdh-20">
                             <div class="icon" style="justify-content: center;">
                                 <img src="assets/country/pocket friendly.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>

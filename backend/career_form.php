@@ -1,5 +1,4 @@
 <?php 
-
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
@@ -15,7 +14,7 @@
     $secret = '6Ld1Ax8pAAAAAOT-lW4WcdOIkOzgY87SMA1yYOM_'; // reCAPTCHA secret key
  
     // Email settings 
-    $mail->isSMTP();    //Send using SMTP
+    $mail->isSMTP();//Send using SMTP
     $mail->Host       = 'email-smtp.ap-south-1.amazonaws.com'; //Set the SMTP server to send through
     $mail->SMTPAuth   = true; //Enable SMTP authentication
     $mail->Username   = 'AKIARG6CI77DA4R656X3'; //SMTP username
@@ -65,22 +64,28 @@
     
         // Validate input data 
         if(empty($name)) { 
-            $valErr .= 'Please enter your name.<br/>'; 
+            $valErr .= 'Please enter your name.<br/>';
+            echo $valErr; 
         } 
         if(empty($email) || filter_var($email, FILTER_VALIDATE_EMAIL) === false) { 
             $valErr .= 'Please enter a valid email.<br/>'; 
+            echo $valErr;
         } 
         if(empty($phone)) { 
             $valErr .= 'Please enter phone number.<br/>'; 
+            echo $valErr;
         } 
         if(empty($dob)) { 
             $valErr .= 'Please enter dob.<br/>'; 
+            echo $valErr;
         }
         if(empty($position)) { 
             $valErr .= 'Please Select Position.<br/>'; 
+            echo $valErr;
         }
         if(empty($cv)) { 
-            $valErr .= 'Please Upload Your CV/Resume.<br/>'; 
+            $valErr .= 'Please Upload Your CV/Resume.<br/>';
+            echo $valErr; 
         }
         
         // if ($captcha_success['score'] <= 0.5) {
@@ -88,7 +93,7 @@
             if(empty($valErr)) { 
                 $uploadStatus = 1; 
                 
-                if($file_size > 3822575) {
+                if($file_size > 3822575) { 
                     $message = 'File too large. File must be less than 3 megabytes.'; 
                     echo '<script type="text/javascript">alert("'.$message.'");</script>'; 
                 }
@@ -104,13 +109,13 @@
                         // Allow certain file formats 
                         if(in_array($fileType, $allowFileTypes)) { 
                             // Upload file to the server 
-                            if(move_uploaded_file($cvTmp, $targetFilePath)){ 
+                            if(move_uploaded_file($cvTmp, $targetFilePath)) { 
                                 $uploadedFile = $targetFilePath; 
-                            }
+                            } 
                             else {
-                                $uploadStatus = 0;
-                                $statusMsg = "Sorry, there was an error uploading your file.";
-                                echo $statusMsg;
+                                $uploadStatus = 0; 
+                                $statusMsg = "Sorry, there was an error uploading your file."; 
+                                echo $statusMsg; 
                             } 
                         }
                         else { 
@@ -120,8 +125,6 @@
                         } 
                     } 
                 }
-                
-                
                 if($uploadStatus == 1){ 
                     // Email subject 
                     $emailSubject = 'Job Request Submitted by '.$name; 

@@ -99,7 +99,7 @@
         </div>
 
         <!-- Trade Insights -->
-        <div class="container-fluid bg-bluish pdb-2 pdt-5">
+        <div class="container-fluid bg-bluish pdb-2 pdt-2">
             <div class="container">
                 <div class="text-content">
                     <span>Trade Insights</span>

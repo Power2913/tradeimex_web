@@ -87,7 +87,7 @@
                             <div class="container">
                                 <div class="text-content">
                                     <span>REMOTE FIRST</span>
-                                    <h2 class="text-white">Work where your life is</h2>
+                                    <h3 class="text-white">Work where your life is</h3>
                                     <p class="text-white">
                                         At TradeImeX, we believe that work should complement your life, not hinder it. We understand
                                         the significance of work-life balance and strive to produce a terrain where our workers can

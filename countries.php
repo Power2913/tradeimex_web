@@ -83,7 +83,6 @@
                                         }
                                     ?>
                                 </li>
-                                
                                 <!-- Country Name -->
                                 <li class="breadcrumb-item active" aria-current="page">
                                     <?php
@@ -185,8 +184,10 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="data-img">
-                            <img src="assets/img/Botswana.jpg">
+                            <img src="assets/img/Bangladesh Import Data (2).svg">
                         </div>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -727,7 +728,6 @@
         <!-- Top 10 imports of country (Pie Chart) -->
         <script type="text/javascript">
             const cty = document.getElementById('10_imports');
-
             new Chart(cty, {
                 type: 'pie',
                 responsive : true,
