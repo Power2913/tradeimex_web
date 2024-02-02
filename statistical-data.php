@@ -55,7 +55,7 @@
                             <li class="list">Description of HS code, etc.</li>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex" style="justify-content: center;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex" style="justify-content: center;padding-bottom: 2rem;">
                         <div class="data-img">
                             <img src="assets/img/Customs Data.png">
                         </div>
@@ -65,7 +65,7 @@
         </div>
 
         <!-- Leveraging Statistical Data with TradeImeX & Key Benefits of TradeImeX Statistical Data -->
-        <div class="container-fluid padding-tb bg-white">
+        <div class="container-fluid pdt-5 pdb-2 bg-white">
             <div class="container">
                 <div class="text-content">
                     <h2>Leveraging Statistical Data with TradeImeX</h2>

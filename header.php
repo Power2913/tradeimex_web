@@ -132,7 +132,7 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="d-grid gap-2 d-md-block">
+                <div class="d-flex" style="justify-content: center;">
                     <button class="btn btn-outline text-black fw-600" type="button">
                         <a class="text-hover" href="contact-us.php">Contact Us</a>
                     </button>

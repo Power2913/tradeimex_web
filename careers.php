@@ -159,7 +159,7 @@
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <span>Core Value</span>
                             <h2>What will you do in the company ahead?</h2>
@@ -232,10 +232,10 @@
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <img src="assets/img/custom-analyst-removebg-preview.png" width="100%">
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <div class="text-content content-highlight">
                             <h2 class="text-white">
                                 Friendly Environment and Timely Celebrations

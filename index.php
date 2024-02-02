@@ -12,30 +12,6 @@
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
 
         <?php include 'link.php';?>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-        <script src="assets/js/globe.js"></script>
-        <style>
-            .mainDiv {
-                display: flex;
-                background-color: #f7f1f1;
-                height: 100%;
-            }
-            .content {
-                flex: 1;
-                padding: 20px;
-                color: #000000;
-            }
-            #globe-container {
-                height: 85%;
-                width: 45%; /* Adjust as needed */
-                background-color: #f7f1f1;
-                position: relative;
-                bottom: 0;  
-                right: 0;
-                z-index: 1; /* Ensure the globe is on top */
-            }
-        </style>
     </head>
     <body>
         <?php include 'header.php';?>
@@ -71,7 +47,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12" id="globe-container"></div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="app-wrapper" id="glob"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -412,7 +390,7 @@
                 <!-- Custom -->
                 <div id="custom" class="product-tabcontent bg-dark-custom" style="display:flex">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content">
                                 <h2 class="text-white">CUSTOMS DATA</h2>
                                 <p class="text-white">
@@ -440,7 +418,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="data-img">
                                 <img src="assets/img/Customs Data.png" alt="customs-data | TradeImeX">
                             </div>
@@ -450,7 +428,7 @@
                 <!-- Stat -->
                 <div id="stat" class="product-tabcontent bg-dark-custom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content font">
                                 <h2 class="text-white">STATISTICAL DATA</h2>
                                 <p class="text-white">
@@ -468,7 +446,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="data-img">
                                 <img src="assets/img/Statistical_Data.png" alt="statistical-data | TradeImeX">
                             </div>
@@ -478,7 +456,7 @@
                 <!-- BL -->
                 <div id="bl" class="product-tabcontent bg-dark-custom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="text-content">
                                 <h2 class="text-white">B/L DATA</h2>
                                 <p class="text-white">
@@ -500,7 +478,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="data-img">
                                 <img src="assets/img/BL Data.png" alt="bl-data | TradeImeX">
                             </div>
@@ -550,16 +528,6 @@
         <!-- Countries List -->
         <div class="container-fluid bg-dark-custom padding-tb">
             <div class="container">
-                <div class="text-content flex" style="justify-content: flex-end;">
-                    <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
-                        <i class="fa-solid fa-square" style="color: #00ca6f;"></i>
-                        <p class="text-black text-white">&nbsp;&nbsp;Customs Data</p>
-                    </div>
-                    <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
-                        <i class="fa-solid fa-square" style="color: #fff;"></i>
-                        <p class="text-black text-white">&nbsp;&nbsp;Statistical/BL Data</p>
-                    </div>
-                </div>
                 <div class="tab">
                     <button class="tablinks active-1" onmouseover="openCity(event, 'Asia')">Asia</button>
                     <button class="tablinks" onmouseover="openCity(event, 'Africa')">Africa</button>
@@ -1361,6 +1329,16 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
+            <div class="text-content flex" style="justify-content: center;margin-top: 2rem;">
+                <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
+                    <i class="fa-solid fa-square" style="color: #00ca6f;"></i>
+                    <p class="text-black text-white">&nbsp;&nbsp;Customs Data</p>
+                </div>
+                <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
+                    <i class="fa-solid fa-square" style="color: #fff;"></i>
+                    <p class="text-black text-white">&nbsp;&nbsp;Statistical/BL Data</p>
+                </div>
+            </div>
         </div>
 
         <!-- Client floating list -->
@@ -1513,7 +1491,7 @@
                         </div>
 
                         <!-- For Mobile -->
-                        <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
+                        <div id="client_mobile" class="container-fluid" style="display: none;">
                             <div class="container">
                                 <div class="row">
                                     <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">

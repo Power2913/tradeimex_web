@@ -386,6 +386,7 @@
                                         This information contains specifics regarding the goods, origin, the parties 
                                         engaged in the transaction, HS codes, and the levies and tariffs that were imposed.
                                     </p>
+                                    <hr>
                                     <h6>
                                         <b>Statistical data</b>
                                     </h6>
@@ -397,6 +398,7 @@
                                         such as the country of origin or destination, price, product quantity, and 
                                         date of shipment.
                                     </p>
+                                    <hr>
                                     <h6>
                                         <b>Bill of lading data</b>
                                     </h6>

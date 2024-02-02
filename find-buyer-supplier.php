@@ -32,7 +32,7 @@
         <div class="container-fluid padding-tb bg-bluish slanted-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
                         <div class="text-content">
                             <h1 class="gradient-h2">
                                 TradeImeX - A Unique platform to find attainable buyers or suppliers for your business.
@@ -46,8 +46,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                        <img src="/assets/model/Final_Buyer_Supplier.png" width="100%" style="z-index: 1000;">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                        <img src="/assets/img/BL Data.png" width="100%" style="z-index: 1000;">
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
@@ -86,7 +86,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
@@ -103,7 +103,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
@@ -120,7 +120,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
@@ -156,9 +156,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                             <div class="card-content cdh-18">
-                                <div class="head-bg">
+                                <div class="head">
                                     <h3>
                                         Supplier Search
                                     </h3>
@@ -170,9 +170,9 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                             <div class="card-content cdh-18">
-                                <div class="head-bg">
+                                <div class="head">
                                     <h3>
                                         Verified Supplier Information
                                     </h3>
@@ -184,9 +184,9 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 c1ol-md-3 col-lg-3">
+                        <div class="col-sm-6 col-xs-12 c1ol-md-6 col-lg-3">
                             <div class="card-content cdh-18">
-                                <div class="head-bg">
+                                <div class="head">
                                     <h3>
                                         Competitive Analysis
                                     </h3>           
@@ -198,9 +198,9 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
                             <div class="card-content cdh-18">
-                                <div class="head-bg">
+                                <div class="head">
                                     <h3>
                                         Final selection of possible suppliers and buyers
                                     </h3>
@@ -299,8 +299,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                        <div class="container">
-                        </div>
+                        <img class="img-wrapper" src="assets/img/blog-3.jpg" width="100%">
                     </div>
                 </div>
             </div>

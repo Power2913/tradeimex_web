@@ -20,7 +20,6 @@
 
     
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/slider2.js" defer></script>
-    <script src="assets/js/globe.js"></script>
+    <script src="assets/js/slider2.js"></script>
     
     <script src="//code.tidio.co/sdzqyzkqyjktbhjlcr0v8xbgipvxwtc9.js"></script>

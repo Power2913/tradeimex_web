@@ -1046,9 +1046,7 @@
                 <div class="text-content">
                     <span>Global Trade Data</span>
                     <h2>What is Global Trade Data?</h2>
-                </div>
-                <div class="text-content">
-                   <p>
+                    <p>
                         The process of trading products and services across international borders is known as global
                         trade, and the trade information regarding international shipments which includes the global
                         import-export data is called the global trade data. Since the advent of globalization in 1991,
@@ -1070,7 +1068,6 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="text-content">
-                            <span>Leveraging</span>
                             <h2 class="text-white">Leveraging TradeImeX Global Trade Data</h2>
                             <p class="text-white">
                                 Global trade data provides vital insights into international markets, helping businesses identify

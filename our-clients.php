@@ -179,83 +179,83 @@
                         <!-- For Mobile -->
                         <div id="client_mobile" class="container-fluid padding-tb" style="display: none;">
                             <div class="row">
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Aditya_Birla.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/BASF.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Counterpoint.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Deloitte.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/DHL.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Dow.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Exxon_Mobil.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/EY.png" width="60%">
                                     </div>
                                 </div>
                                 <!-- Second row -->
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Realme.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Nikon.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Samsung.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/LG.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Hyundai.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Mahindra.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/Tata.png" width="60%">
                                     </div>
                                 </div>
-                                <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                                <div class="client-mb col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                     <div class="client-img zoom">
                                         <img src="assets/client_transparent/TVS.png" width="60%">
                                     </div>
@@ -283,7 +283,7 @@
                         able to offer tailor-made solutions to enhance their clients&#39; global trade operations.
                     </p>
                 </div>
-                <div class="row">
+                <div class="row pdt-2">
                     <div class="cd-wd-mb col-sm-6 col-xs-12 col-md-3 col-lg-3">
                         <div class="card-content-bg">
                             <div class="head-bg">
@@ -304,7 +304,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cd-wd-mb col-sm-6 col-xs-12 c1ol-md-3 col-lg-3">
+                    <div class="cd-wd-mb col-sm-6 col-xs-12 col-md-3 col-lg-3">
                         <div class="card-content-bg">
                             <div class="head-bg">
                                 <h3>
@@ -452,7 +452,11 @@
                             </p>
                         </div>
                     </div>  
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6"></div>
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6">
+                        <div class="image-fit">
+                            <img src="/assets/img/blog-1.jpg" width="100%">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

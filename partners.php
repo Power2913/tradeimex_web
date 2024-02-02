@@ -29,7 +29,7 @@
         <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <span>Become A Partner</span>
                             <h1 class="gradient-h2">
@@ -50,7 +50,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-6"></div>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
-                            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-4">
+                            <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
                                     <img src="assets/img/salary.png" width="100%">
                                     <div class="head-bg"> 
@@ -84,7 +84,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-xs-12 c1ol-md-3 col-lg-4">
+                            <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
                                     <img src="assets/img/salary.png" width="100%">
                                     <div class="head-bg">
@@ -100,7 +100,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-4">
+                            <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
                                     <img src="assets/img/salary.png" width="100%">
                                     <div class="head-bg">
@@ -129,7 +129,7 @@
         <div class="container-fluid pdt-5 pdb-2 bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <span>Sales Partner</span>
                             <h1>Join us as a Sales Partner</h1>
@@ -154,8 +154,8 @@
                             <li class="list">Dynamic assistance for partners.</li>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                        
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6" style="padding-top: 2%;">
+                        <img class="img-fluid" src="assets/img/Bangladesh Import Data.svg">
                     </div>
                 </div>
             </div>
@@ -165,10 +165,10 @@
         <div class="container-fluid pdb-5 pdt-2 bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
                             <span>Data Partner</span>
                             <h1>Join us as a Data Partner</h1>
@@ -206,9 +206,9 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-18">
+                                <div class="card-content cdh-17">
                                     <div class="icon">
-                                        <img src="assets/country/Accuracy.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                        <img src="assets/img/diamond.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                                     </div>
                                     <div class="head">
                                         <h3>Comprehensive Trade Solutions</h3>
@@ -223,9 +223,9 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-18">
+                                <div class="card-content cdh-17">
                                     <div class="icon">
-                                        <img src="assets/country/Updated Data.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                        <img src="assets/img/tick.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                                     </div>
                                     <div class="head">
                                         <h3>Market Intelligence</h3>
@@ -239,9 +239,9 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-18">
+                                <div class="card-content cdh-17">
                                     <div class="icon">
-                                        <img src="assets/country/Exclusive.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                        <img src="assets/img/salary.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
                                     </div>
                                     <div class="head">
                                         <h3>Personalized Support</h3>

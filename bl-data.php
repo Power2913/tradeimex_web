@@ -106,8 +106,7 @@
                             <p>
                                 Traditionally, managing and processing
                                 shipping documentation can be a tough and time-consuming task. However, B/L data
-                                can streamline these processes, reducing administrative burdens and improving
-                                operational efficiency.
+                                can streamline these processes, reducing administrative burdens.
                             </p>
                         </div>
                     </div>
@@ -122,8 +121,7 @@
                             <p>
                                 B/L data provides businesses with a valuable source of
                                 data for decision-making purposes. By acquiring B/L data, companies can gain insights
-                                into various aspects of their operations, such as transit times, routes, carriers&#39;
-                                performance, and costs.
+                                into various aspects of their operations.
                             </p>
                         </div>
                     </div>

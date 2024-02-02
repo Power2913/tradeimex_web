@@ -27,7 +27,7 @@
         <div class="container-fluid bg-bluish padding-tb slanted-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div class="text-content">
                             <span>The Brand</span>
                             <h1 class="gradient-h2">
@@ -48,7 +48,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <!-- <div class="container">
                             <div class="grid-cards">
                                 <div class="cards">

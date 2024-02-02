@@ -2,7 +2,7 @@
     <!-- Forms & Links -->
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4" style="margin-top: 2.5rem;">
+            <div class="col-md-12 col-lg-3 col-xl-3 mx-auto mb-4" style="margin-top: 2.5rem;">
                 <h5 class="text-uppercase mb-4 col-xs-12" style="font-weight: 600;">
                     Contact us
                 </h5>

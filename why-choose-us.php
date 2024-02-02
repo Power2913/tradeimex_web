@@ -29,7 +29,7 @@
         <div class="container-fluid padding-tb bg-bluish slanted-bottom" style="position: relative;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
                         <div class="text-content">
                             <h1 class="gradient-h2">
                                 TradeImeX: Empowering Businesses with Unique Solutions
@@ -46,8 +46,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                        <img src="/assets/model/Final_Buyer_Supplier.png" width="100%">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 pdb-5">
+                        <img src="/assets/img/Bangladesh Import Data (1).gif" width="100%">
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@
         <div class="container-fluid bg-white padding-tb" style="margin-top: 2rem;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-16">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                        <div class="card-content cdh-19">
                             <div class="head">
                                 <h3>
                                     100% ACCURATE DATA
@@ -76,8 +76,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-16">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                        <div class="card-content cdh-19">
                             <div class="head">
                                 <h3>
                                     UPDATED DATABASE
@@ -91,8 +91,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-16">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                        <div class="card-content cdh-19">
                             <div class="head">
                                 <h3>
                                     EXCLUSIVE REPORTS
@@ -107,8 +107,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                        <div class="card-content cdh-16">
+                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                        <div class="card-content cdh-19">
                             <div class="head">
                                 <h3>
                                     POCKET FRIENDLY PACKAGES
@@ -127,14 +127,14 @@
         </div>
 
         <!-- Cards -->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade bg-dark-custom" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-slide bg-dark-custom" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card bg-dark-custom">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                    <img src="assets/img/blog-1.jpg" width="100%">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-6 flex"  style="align-items: center;">
@@ -266,7 +266,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-15">
+                            <div class="card-content cdh-16">
                                 <div class="head">
                                     <h3>
                                         Entirely accurate data
@@ -281,7 +281,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-15">
+                            <div class="card-content cdh-16">
                                 <div class="head">
                                     <h3>
                                         Completely recent database
@@ -290,13 +290,12 @@
                                 <p>
                                     Our team keeps an eye out for developments. We provide the most recent and updated
                                     global trade data in our customs database for your convenience. The heart of
-                                    TradeImeX lies in its completely recent database. We ensure that traders have access to
-                                    the most recent information available.
+                                    TradeImeX lies in its completely recent database.
                                 </p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-15">
+                            <div class="card-content cdh-16">
                                 <div class="head">
                                     <h3>
                                         Data Sourcing and accuracy
@@ -305,13 +304,12 @@
                                 <p>
                                     TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
                                     collaborate with customs agencies across the globe to obtain accurate and reliable
-                                    import and export data. This includes information on the quantity, value, origin, and
-                                    destination of goods.
+                                    import and export data.
                                 </p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-15">
+                            <div class="card-content cdh-16">
                                 <div class="head">
                                     <h3>
                                         Comprehensible packages

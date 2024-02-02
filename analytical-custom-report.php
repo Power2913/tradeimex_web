@@ -25,7 +25,7 @@
         <?php include 'header.php';?>
 
         <!-- Overview -->
-        <div class="container-fluid padding-tb bg-bluish slanted-bottom">
+        <div class="container-fluid pdt-2 pdb-2 bg-bluish slanted-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -172,7 +172,7 @@
         </div>
 
         <!-- Market Analysis -->
-        <div class="container-fluid bg-bluish padding-tb">
+        <div class="container-fluid bg-bluish pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
                     <h2>

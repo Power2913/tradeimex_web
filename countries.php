@@ -184,10 +184,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="data-img">
-                            <img src="assets/img/Bangladesh Import Data (2).svg">
+                            <img src="assets/img/check-2.svg">
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>
