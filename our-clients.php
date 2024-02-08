@@ -437,7 +437,7 @@
         </div>
 
         <!-- Global Search -->
-        <div class="container-fluid padding-tb">
+        <div class="container-fluid pdb-2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-lg-md-6 col-lg-6">
@@ -452,10 +452,8 @@
                             </p>
                         </div>
                     </div>  
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6">
-                        <div class="image-fit">
-                            <img src="/assets/img/blog-1.jpg" width="100%">
-                        </div>
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                        <img src="/assets/img/Global Reach (1).gif" style="width: 60%;">
                     </div>
                 </div>
             </div>
@@ -465,10 +463,10 @@
         <div class="container-fluid pdb-5 pdt-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6">
-
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                        <img src="/assets/img/Client_Retention.gif" style="width: 60%;">
                     </div>  
-                    <div class="col-sm-12 col-lg-md-6 col-lg-6">
+                    <div class="col-sm-12 col-lg-md-6 col-lg-6" style="align-items: center;display: flex;">
                         <div class="text-content content-highlight">
                             <h2 class="text-white">
                                 Client Retention

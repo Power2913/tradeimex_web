@@ -139,7 +139,7 @@
                             <p>
                                 The analytical reports offered by TradeImeX provide a
                                 comprehensive view of the market, empowering businesses with valuable insights that
-                                can drive growth and profitability.
+                                can drive growth and profitability.Gain profitable and comprehensive insights.
                             </p>
                         </div>
                     </div>
@@ -150,8 +150,9 @@
                             </div>
                             <p>
                                 Conducting in-depth market research can be a time-consuming process.
-                                TradeImeX simplifies this by offering ready-to-use reports that save businesses valuable
-                                time and resources.
+                                TradeImeX simplifies this by offering ready-to-use reports that save 
+                                businesses valuable time and resources.Save your precious time and 
+                                energy using our customized analytical reports.
                             </p>
                         </div>
                     </div>
@@ -163,7 +164,8 @@
                             <p>
                                 Developing an in-house research team can be expensive. Our customized
                                 analytical reports offer cost-effective access to high-quality market intelligence without
-                                the need for extensive investments.
+                                the need for extensive investments.Our cost-effective and pocket-friendly 
+                                analytical reports.
                             </p>
                         </div>
                     </div>
@@ -208,8 +210,10 @@
                                 <h3>LEARN MORE ABOUT A PRODUCT&#39;S GLOBAL TRADE</h3>  
                             </div>
                             <p>
-                                A marketer might develop prospective supply chain strategies for a particular commodity to
-                                learn about market trends and consumption patterns by conducting a market study.
+                                A marketer might develop prospective supply chain strategies for a 
+                                particular commodity to learn about market trends and consumption 
+                                patterns by conducting a market study.You can learn more about any 
+                                product’s global trade data.
                             </p>
                         </div>
                     </div>

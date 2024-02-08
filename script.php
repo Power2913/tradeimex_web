@@ -21,5 +21,20 @@
     
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slider2.js"></script>
+    <script>
+        $(document).ready(function(){ 
+            $(window).scroll(function(){ 
+                if ($(this).scrollTop() > 100) { 
+                    $('#scroll').fadeIn(); 
+                } else { 
+                    $('#scroll').fadeOut(); 
+                } 
+            }); 
+            $('#scroll').click(function(){ 
+                $("html, body").animate({ scrollTop: 0 }, 600); 
+                return false; 
+            }); 
+        });
+    </script>
     
     <script src="//code.tidio.co/sdzqyzkqyjktbhjlcr0v8xbgipvxwtc9.js"></script>

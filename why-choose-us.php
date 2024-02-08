@@ -46,8 +46,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 pdb-5">
-                        <img src="/assets/img/Bangladesh Import Data (1).gif" width="100%">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                        <img src="/assets/img/Why Choose Us.gif" width="100%">
                     </div>
                 </div>
             </div>
@@ -60,66 +60,81 @@
         <div class="container-fluid bg-white padding-tb" style="margin-top: 2rem;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
-                            <div class="head">
-                                <h3>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/accurate.png" class="card-img-top" alt="..." style="width: 25%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     100% ACCURATE DATA
-                                </h3>
+                                </h5>
+                                <p class="card-text text-white-p">
+                                    We commit to providing a 100% accurate and reliable database.
+                                    TradeImeX provides 100% accurate statistics for your company, 
+                                    enabling you to maintain an advantage over your rivals in the 
+                                    international trade industry.Our customs database verifies the 
+                                    import-export data we supply with consistent correctness and 
+                                    up-to-date global trade information.
+                                </p>
                             </div>
-                            <p>
-                                We commit to providing a 100% accurate and reliable database.
-                                TradeImeX provides 100% accurate statistics for your company, enabling you to
-                                maintain an advantage over your rivals in the international trade industry. Our customs
-                                database verifies the import-export data we supply with consistent correctness and up-
-                                to-date global trade information.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
-                            <div class="head">
-                                <h3>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/updated-database.png" class="card-img-top" alt="..." style="width: 25%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     UPDATED DATABASE
-                                </h3>
+                                </h5>
+                                <p class="card-text text-white-p">
+                                    Our team always keeps an eye on updates. To facilitate your ability to 
+                                    make knowledgeable trade decisions, we offer the most current and updated 
+                                    global trade data in our customs database. With our most recent and up-to-date 
+                                    import-export data, you can stay ahead of the market competition and make wise 
+                                    business decisions to stay ahead with your business.
+                                </p>
                             </div>
-                            <p>
-                                Our team always keeps an eye on updates. To facilitate your ability
-                                to make knowledgeable trade decisions, we offer the most current and updated global
-                                trade data in our customs database. With our most recent and up-to-date import-export
-                                data, you can stay ahead of the competition and make wise business decisions.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
-                            <div class="head">
-                                <h3>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/exclusive-reports.png" class="card-img-top" alt="..." style="width: 25%;">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                     EXCLUSIVE REPORTS
-                                </h3>
+                                </h5>
+                                <p class="card-text text-white-p">
+                                    We bring you the most exclusive information about each country’s
+                                    global trade data. TradeImeX gathers enormous volumes of data from multiple sources.
+                                    Our team of professionals carefully examines and gathers important information from
+                                    this data to provide one-of-a-kind trade data reports that are tailored to the particular
+                                    requirements of companies.
+                                </p>
                             </div>
-                            <p>
-                                We bring you the most exclusive information about each country’s
-                                global trade data. TradeImeX gathers enormous volumes of data from multiple sources.
-                                Our team of professionals carefully examines and gathers important information from
-                                this data to provide one-of-a-kind trade data reports that are tailored to the 
-                                particular requirements.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
-                            <div class="head">
-                                <h3>
-                                    POCKET FRIENDLY PACKAGES
-                                </h3>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/pocket-friendly.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <p>
-                                We provide trade data services at very comprehensive and
-                                affordable packages. In the realm of international trade, we provide all-inclusive
-                                packages with a variety of features and advantages to help you gain import-export data
-                                more efficiently.
-                            </p>
+                            <div class="card-body">
+                                <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                    POCKET FRIENDLY
+                                </h5>
+                                <p class="card-text text-white-p">
+                                    We provide trade data services at very comprehensive and
+                                    affordable packages. In the realm of international trade, we provide all-inclusive
+                                    packages with a variety of features and advantages to help you gain import-export data
+                                    more efficiently. Avail yourself of benefits with our extremely pocket-friendly
+                                    packages data for your business.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,12 +147,12 @@
                 <div class="carousel-item active">
                     <div class="card bg-dark-custom">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                            <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/blog-1.jpg" width="100%">
+                                    <img src="assets/img/Extensive Global Trade Database.gif" style="width: 60%;">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex"  style="align-items: center;">
+                            <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Extensive Global Trade Database</h3>
                                     <p class="text-white">
@@ -154,12 +169,12 @@
                 <div class="carousel-item">
                     <div class="card bg-dark-custom">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                            <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                    <img src="assets/img/Advance Search Analysis.gif" style="width: 60%;">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                            <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Advanced Search and Filtering Capabilities</h3>
                                     <p class="text-white">
@@ -177,12 +192,12 @@
                 <div class="carousel-item">
                     <div class="card bg-dark-custom">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                            <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                    <img src="assets/img/Realtime Notifcation.gif" style="width: 60%;" >
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                            <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Real-Time Notifications</h3>
                                     <p class="text-white">
@@ -201,12 +216,12 @@
                 <div class="carousel-item">
                     <div class="card bg-dark-custom">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                            <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                    <img src="assets/img/Buyer Supplier.gif" style="width: 60%;">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                            <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Buyers & Suppliers</h3>
                                     <p class="text-white">
@@ -223,12 +238,12 @@
                 <div class="carousel-item">
                     <div class="card bg-dark-custom">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="justify-content: center;display: flex;">
+                            <div class="col-sm-12 col-md-6 col-lg-5" style="justify-content: center;display: flex;">
                                 <div class="card-img-cstm">
-                                    <img src="assets/img/custom-analyst-1-removebg-preview.png" width="100%">
+                                    <img src="assets/img/Dedicated Customer Support.gif" style="width: 60%;">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 flex" style="align-items: center;">
+                            <div class="col-sm-12 col-md-6 col-lg-7 flex" style="align-items: center;">
                                 <div class="card-text-content">
                                     <h3 class="text-white">Dedicated Customer Support</h3>
                                     <p class="text-white">
@@ -265,62 +280,72 @@
                         <h2>What makes TradeImeX the best option?</h2>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-16">
-                                <div class="head">
-                                    <h3>
-                                        Entirely accurate data
-                                    </h3>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
+                                    <img src="assets/img/accurate-data.png" class="card-img-top" alt="..." style="width: 25%;">
                                 </div>
-                                <p>
-                                    We guarantee to provide a completely reliable database. With TradeImeX you get 100%
-                                    accurate data for your business, so that you can stay ahead of your competitors in the
-                                    global trade market. Our import-export data is verified in our customs database with
-                                    reliable accuracy.
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                        Entirely Accurate Data
+                                    </h5>
+                                    <p class="card-text text-white-p">
+                                        We guarantee to provide a completely reliable database. With TradeImeX you get 100%
+                                        accurate data for your business, so that you can stay ahead of your competitors in the
+                                        global trade market.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-16">
-                                <div class="head">
-                                    <h3>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
+                                    <img src="assets/img/recent-database.png" class="card-img-top" alt="..." style="width: 25%;">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                         Completely recent database
-                                    </h3>
+                                    </h5>
+                                    <p class="card-text text-white-p">
+                                        Our team keeps an eye out for developments. We provide the most recent and 
+                                        updated global trade data in our customs database for your convenience. 
+                                        The heart of TradeImeX lies in its completely database.
+                                    </p>
                                 </div>
-                                <p>
-                                    Our team keeps an eye out for developments. We provide the most recent and updated
-                                    global trade data in our customs database for your convenience. The heart of
-                                    TradeImeX lies in its completely recent database.
-                                </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-16">
-                                <div class="head">
-                                    <h3>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
+                                    <img src="assets/img/data-sourcing.png" class="card-img-top" alt="..." style="width: 25%;">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
                                         Data Sourcing and accuracy
-                                    </h3>
+                                    </h5>
+                                    <p class="card-text text-white-p">
+                                        TradeImeX Sources Data from Various Customs Agencies and shipping manifests. 
+                                        We collaborate with customs agencies across the globe to obtain accurate and 
+                                        reliable import and export data.
+                                    </p>
                                 </div>
-                                <p>
-                                    TradeImeX Sources Data from Various Customs Agencies and shipping manifests. We
-                                    collaborate with customs agencies across the globe to obtain accurate and reliable
-                                    import and export data.
-                                </p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3">
-                            <div class="card-content cdh-16">
-                                <div class="head">
-                                    <h3>
-                                        Comprehensible packages
-                                    </h3>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="card card-bg cdh-20">
+                                <div class="card-img">
+                                    <img src="assets/img/tracking.png" class="card-img-top" alt="..." style="width: 25%;">
                                 </div>
-                                <p>
-                                    We charge incredibly low prices for our data-providing services. TradeImeX offers
-                                    comprehensive packages with a range of features and benefits that can streamline your
-                                    import and export business in the world of global trade. Get exclusive and accurate
-                                    trade data at extremely affordable packages.
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                        Comprehensible packages
+                                    </h5>
+                                    <p class="card-text text-white-p">
+                                        We charge incredibly low prices for our data-providing services. TradeImeX offers 
+                                        comprehensive packages with a range of features and benefits that can streamline your 
+                                        import in the world of global trade.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

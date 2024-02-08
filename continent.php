@@ -74,6 +74,9 @@
                 width: 100%;
                 height: 100%;
             }
+            .highcharts-exporting-group {
+                display: none !important;
+            }
         </style>
     </head>
     <body>
@@ -944,7 +947,7 @@
         <div class="clearfix"></div>
 
         <!-- Top 10 imports of country -->
-        <div class="container-fluid pdt-2 pdb-2">
+        <div class="container-fluid pdt-2">
             <div class="container">
                 <div class="text-content">
                     <span>Use Case</span>
@@ -964,7 +967,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="list">
                             <li>Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
                             <li>Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
@@ -978,10 +981,10 @@
                             <li>Electric generating sets and rotary converters ($688 million) 1.24%</li>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="chart_margin">
-                            <canvas id="10_imports"></canvas>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <figure class="highcharts-figure">
+                            <div id="container"></div>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -1003,13 +1006,8 @@
                     </p>
                 </div>
             </div>
-            <div class="container pdt-2">
+            <div class="container">
                 <div  class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                        <div>
-                            <canvas id="10_partners"></canvas>
-                        </div>
-                    </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         <li class="list">Petroleum Oils And Mineral fuels ($8.66 billion) 15.6%</li>
                         <li class="list">Motor cars and other motor vehicles ($2.94 billion) 5.33%</li>
@@ -1021,6 +1019,11 @@
                         <li class="list">Insecticides, rodenticides, fungicides, and herbicides ($912 million) 1.65%</li>
                         <li class="list">Tractors ($792 million) 1.43%</li>
                         <li class="list">Electric generating sets and rotary converters ($688 million) 1.24%</li>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                        <div>
+                            <canvas id="10_partners"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1049,17 +1052,17 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                                <img class="slider-img-resp" src="assets/img/BL Data.png" style="border-radius: 12px;">
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                                <img class="slider-img-resp" src="assets/img/BL Data.png" style="border-radius: 12px;">
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="flex" style="justify-content: center;">
-                                <img src="assets/img/BL Data.png" width="60%" style="border-radius: 12px;">
+                                <img class="slider-img-resp" src="assets/img/BL Data.png" style="border-radius: 12px;">
                             </div>
                         </div>
                     </div>
@@ -1155,70 +1158,168 @@
         <?php include 'script.php';?>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
         <!-- Top 10 imports of country (Pie Chart) -->
         <script type="text/javascript">
-            const cty = document.getElementById('10_imports');
+            (function (H) {
+            H.seriesTypes.pie.prototype.animate = function (init) {
+                const series = this,
+                    chart = series.chart,
+                    points = series.points,
+                    {
+                        animation
+                    } = series.options,
+                    {
+                        startAngleRad
+                    } = series;
 
-            new Chart(cty, {
-                type: 'pie',
-                responsive : true,
-                data: {
-                    labels: [
-                        'Petroleum Oils And Mineral fuels',
-                        'Motor cars and other motor vehicles',
-                        'Petroleum gases and hydrocarbons ',
-                        'Pharmaceuticals and Medicaments',
-                        'Coal and solid fuels manufactured from coal',
-                        'Electrical appliances including telephones',
-                        'Iron and steel',
-                        'Insecticides, rodenticides, fungicides, and herbicides',
-                        'Tractors',
-                        'Electric generating sets and rotary converters'
-                    ],
-                    datasets: [{
-                        label: '',
-                        data: [15.6, 5.33, 3.82, 2.8, 2.13, 1.83, 1.72, 1.65, 1.43, 1.24],
-                        backgroundColor: [
-                            'rgb(255, 99, 132)',
-                            'rgb(54, 162, 235)',
-                            'rgb(255, 205, 86)',
-                            'rgb(230, 9, 56)',
-                            'rgb(6, 201, 81)',
-                            'rgb(219, 35, 11)',
-                            'rgb(12, 45, 194)',
-                            'rgb(158, 209, 4',
-                            'rgb(201, 113, 12)',
-                            'rgb(201, 12, 169)'
-                        ],
-                        hoverOffset: 10
-                    }]
-                },
-                options: {
-                    plugins : {
-                        legend: {
-                            display: true,
-                            position: 'right',
-                            labels: {
-                                // This more specific font property overrides the global property
-                                font: {
-                                    size: 14
+                function fanAnimate(point, startAngleRad) {
+                    const graphic = point.graphic,
+                        args = point.shapeArgs;
+
+                    if (graphic && args) {
+
+                        graphic
+                            // Set inital animation values
+                            .attr({
+                                start: startAngleRad,
+                                end: startAngleRad,
+                                opacity: 1
+                            })
+                            // Animate to the final position
+                            .animate({
+                                start: args.start,
+                                end: args.end
+                            }, {
+                                duration: animation.duration / points.length
+                            }, function () {
+                                // On complete, start animating the next point
+                                if (points[point.index + 1]) {
+                                    fanAnimate(points[point.index + 1], args.end);
                                 }
-                            }
-                        },
-                    },
-                    layout: {
-                        padding: {
-                            bottom: 50
-                        }
+                                // On the last point, fade in the data labels, then
+                                // apply the inner size
+                                if (point.index === series.points.length - 1) {
+                                    series.dataLabelsGroup.animate({
+                                        opacity: 1
+                                    },
+                                    void 0,
+                                    function () {
+                                        points.forEach(point => {
+                                            point.opacity = 1;
+                                        });
+                                        series.update({
+                                            enableMouseTracking: true
+                                        }, false);
+                                        chart.update({
+                                            plotOptions: {
+                                                pie: {
+                                                    innerSize: '40%',
+                                                    borderRadius: 8
+                                                }
+                                            }
+                                        });
+                                    });
+                                }
+                            });
                     }
                 }
+
+                if (init) {
+                    // Hide points on init
+                    points.forEach(point => {
+                        point.opacity = 0;
+                    });
+                } else {
+                    fanAnimate(points[0], startAngleRad);
+                }
+            };
+            }(Highcharts));
+
+            Highcharts.chart('container', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Top 10 Imports Of Asia Trade Data',
+                    align: 'center'
+                },
+                tooltip: {
+                    pointFormat: ''
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
+                    }
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        borderWidth: 2,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>',
+                            distance: 20
+                        }
+                    }
+                },
+                series: [{
+                    // Disable mouse tracking on load, enable after custom animation
+                    enableMouseTracking: false,
+                    animation: {
+                        duration: 2000
+                    },
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: '15.6',
+                            y: 15.6
+                        },
+                        {
+                            name: '5.33',
+                            y: 5.33
+                        },
+                        {
+                            name: '3.82',
+                            y: 3.82
+                        },
+                        {
+                            name: '2.8',
+                            y: 2.8
+                        },
+                        {
+                            name: '2.13',
+                            y: 2.13
+                        },
+                        {
+                            name: '1.83',
+                            y: 1.83
+                        },
+                        {
+                            name: '1.72',
+                            y: 1.72
+                        },
+                        {
+                            name: '1.65',
+                            y: 1.65
+                        },
+                        {
+                            name: '1.65',
+                            y: 1.65
+                        },
+                        {
+                            name: '1.24',
+                            y: 1.24
+                        },
+                    ]
+                }]
             });
 
-            module.exports = {
-                actions: [],
-                config: config,
-            };
         </script>
         <!-- End of chart js -->
 

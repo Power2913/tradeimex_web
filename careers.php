@@ -13,6 +13,7 @@
         
         <link rel="icon" type="image/x-icon" href="assets/img/Favicon Logo.png">
         <?php include 'link.php';?>
+
         <!-- Google Tag Manager -->
         <script>
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,7 +51,7 @@
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pdb-2" style="align-items: center;display: flex;">
                         <div class="text-content content-highlight">
                             <span>Room For Growth</span>
                             <h2 class="text-white">
@@ -65,9 +66,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                        <figure class="wp-block-image size-large">
-                            <img src="assets/img/career.svg" decoding="async" loading="lazy" width="681" height="489" class="wp-image-5263">
-                        </figure>
+                        <img src="assets/img/Professional Growth.png" width="100%">
                     </div>
                 </div>
             </div>
@@ -79,14 +78,13 @@
                 <div class="row pd-rl-none">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pd-rl-none">
                         <div class="career-img">
-                            <img src="assets/img/remote-first.webp" width="100%" class="card-img-top" alt="...">
+                            <img src="assets/img/Work Life.png" width="100%" class="card-img-top" alt="...">
                         </div> 
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 pd-rl-none">
                         <div class="card-body-custom bg-dark-custom" style="display: flex;align-items: center;">
                             <div class="container">
                                 <div class="text-content">
-                                    <span>REMOTE FIRST</span>
                                     <h3 class="text-white">Work where your life is</h3>
                                     <p class="text-white">
                                         At TradeImeX, we believe that work should complement your life, not hinder it. We understand
@@ -114,20 +112,20 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="benefit-content">
                             <div class="image">
-                                <img src="assets/img/salary.png" width="50%">
+                                <img src="assets/img/work-life-balance.png" width="50%">
                             </div>
-                            <h1 class="text-white">Cutting-Edge Technology</h1>
+                            <h1 class="text-white">Work-Life Balance</h1>
                             <p class="text-white">
-                                At TradeImeX, we pride ourselves on using the latest technology to revolutionize the way
-                                international trade data is provided. Our proprietary platform streamlines the trade process,
-                                enabling seamless communication, global data provision, and transaction tracking.
+                                At TradeImeX, maintaining a healthy work-life balance is a priority. The company understands
+                                that employees perform at their best when they can find harmony between their professional
+                                and personal lives.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="benefit-content">
                             <div class="image">
-                                <img src="assets/img/health.png" width="50%">
+                                <img src="assets/img/collaborate.png" width="50%">
                             </div>
                             <h1 class="text-white">Collaborative Environment</h1>
                             <p class="text-white">
@@ -140,7 +138,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="benefit-content">
                             <div class="image">
-                                <img src="assets/img/remote.png" width="50%">
+                                <img src="assets/img/business.png" width="50%">
                             </div>
                             <h1 class="text-white">Development and Growth</h1>
                             <p class="text-white">
@@ -159,7 +157,7 @@
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="text-content">
                             <span>Core Value</span>
                             <h2>What will you do in the company ahead?</h2>
@@ -176,7 +174,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img  src="assets/img/day-one.svg">
+                                    <img src="assets/img/growth (1).png" style="width: 25%;">
                                 </div>
                                 <h2 class="text-white">Support and enhance the company’s growth</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -189,9 +187,9 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img  src="assets/img/day-one.svg">
+                                    <img src="assets/img/link.png" style="width: 25%;">
                                 </div>
-                                <h2 class="text-white">Establishing <br> Links</h2>
+                                <h2 class="text-white">Establishing Links</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
                                     To accomplish the goals and targets set by the organization, you must establish connections
                                     with different international market leaders, collaborate with your team, and stay up to date on
@@ -202,7 +200,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img  src="assets/img/day-one.svg">
+                                    <img src="assets/img/data-report.png" style="width: 25%;">
                                 </div>
                                 <h2 class="text-white">Achieve business exposure</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -214,7 +212,7 @@
                         <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6" style="padding-bottom: 1%;">
                             <div class="core-content content-highlight">
                                 <div class="image">
-                                    <img  src="assets/img/day-one.svg">
+                                    <img src="assets/img/working.png" style="width: 25%;">
                                 </div>
                                 <h2 class="text-white">Exciting and Challenging Work</h2>
                                 <p class="text-white" style="padding: 0px 0px 0px 0px;">
@@ -228,12 +226,72 @@
             </div>
         </div>
 
+        <!-- Additional Perks of Working at TradeImeX -->
+        <div class="container-fluid bg-bluish pdt-5 pdb-2">
+            <div class="row">
+                <div class="text-content text-center">
+                    <h2>
+                        Additional Perks of Working at TradeImeX
+                    </h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="assets/img/vlogger.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Opportunities for Travel and Networking</h1>
+                            <p class="text-white">
+                                TradeImeX operates on a global scale, and as an employee, you may have the opportunity to
+                                travel to different countries and interact with professionals from various industries and
+                                backgrounds. This exposure to international markets and networking opportunities can
+                                broaden your horizons, expand your professional network, and provide valuable insights and
+                                experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="assets/img/incentive.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Employee Recognition and Incentives</h1>
+                            <p class="text-white">
+                                TradeImeX values excellence and recognizes the achievements of its employees. The
+                                company has a robust employee recognition program in place to celebrate individual and
+                                team accomplishments by providing incentives. TradeImeX acknowledges and rewards hard
+                                work, dedication, and outstanding performance, creating a culture of appreciation and
+                                motivation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 pdb-2">
+                        <div class="benefit-content bg-dark-custom" style="border-radius: 8px;">
+                            <div class="image">
+                                <img src="assets/img/development.png" width="50%">
+                            </div>
+                            <h1 class="text-white">Dynamic and Innovative Work Environment</h1>
+                            <p class="text-white">
+                                Joining TradeImeX means being a part of a dynamic and innovative work environment. The
+                                company embraces new technologies, encourages creative thinking, and fosters an
+                                entrepreneurial spirit. By being a part of TradeImeX, you will have the opportunity to work
+                                on challenging projects, contribute to innovative solutions, and be at the forefront of industry
+                                advancements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Friendly Environment and Timely Celebrations -->
         <div class="container-fluid bg-bluish pdt-5 pdb-2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
-                        <img src="assets/img/custom-analyst-removebg-preview.png" width="100%">
+                        <img src="assets/img/Celebration.png" width="100%">
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
                         <div class="text-content content-highlight">
@@ -276,12 +334,12 @@
                                     </button>
                                 </div>
                                 <div id="seo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="font-size: 20px;">
+                                    <!-- <div class="accordion-body" style="font-size: 20px;">
                                         We provide a stable infrastructure for our merchants, their customers, 
                                         and the Recharge team. Our technical challenges include supporting billions 
                                         of dollars in recurring payments while expanding our capabilities to meet 
                                         the growing demands of ecommerce. Our culture proudly balances speed and quality.
-                                    </div>
+                                    </div> -->
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">
@@ -300,12 +358,12 @@
                                     </button>
                                 </div>
                                 <div id="react" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="font-size: 20px;">
+                                    <!-- <div class="accordion-body" style="font-size: 20px;">
                                         We provide a stable infrastructure for our merchants, their customers, 
                                         and the Recharge team. Our technical challenges include supporting billions 
                                         of dollars in recurring payments while expanding our capabilities to meet 
                                         the growing demands of ecommerce. Our culture proudly balances speed and quality.
-                                    </div>
+                                    </div> -->
                                     <div class="department-jobs bg-bluish">
                                         <button class="department-box" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <h4 class="department-job__title">

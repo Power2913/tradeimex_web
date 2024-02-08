@@ -31,7 +31,7 @@
                         <div class="text-content">
                             <span>The Brand</span>
                             <h1 class="gradient-h2">
-                                TradeImeX ® Info <br> Solution Pvt. Ltd.
+                                TradeImeX ® Info Solution Pvt. Ltd.
                             </h1>
                             <p class="lh-8 text-black">
                                 In an increasingly interconnected world, businesses cannot afford to overlook the value of
@@ -49,13 +49,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <!-- <div class="container">
-                            <div class="grid-cards">
-                                <div class="cards">
-                                    <img src="/assets/model/products/data.png" width="100%">
-                                </div>
-                            </div>
-                        </div> -->
+                        <img src="/assets/img/About US.gif" width="100%">
                     </div>
                 </div>
             </div>
@@ -68,68 +62,70 @@
                     <h2 class="text-black text-center">Why choose TradeImeX?</h2>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-20">
-                            <div class="icon" style="justify-content: center;">
-                                <img src="assets/img/career.svg" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/one_step.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <div class="head">
-                                <h3 class="text-center">A One-Stop Solution</h3>
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">A One-Stop Solution</h5>
+                                <p class="card-text text-white-p text-center">
+                                    TradeImeX is a user-friendly platform that acts as a one-stop solution for all your
+                                    import-export data needs. From navigating trade flows and tracking specific products to
+                                    analyzing market trends and custom activities, TradeImeX provides a comprehensive
+                                    overview of the global trade landscape.
+                                </p>
                             </div>
-                            <p class="text-center">
-                                TradeImeX is a user-friendly online platform that acts as a one-stop solution for all your
-                                import-export data needs. From navigating trade flows and tracking specific products to
-                                analyzing market trends and competitor activities, TradeImeX provides a comprehensive
-                                overview of the global trade landscape.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-20">
-                            <div class="icon" style="justify-content: center;">
-                                <img src="assets/country/Updated Data.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/access.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <div class="head">
-                                <h3 class="text-center">Real-time Access</h3>
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">
+                                    Real-time Access
+                                </h5>
+                                <p class="card-text text-white-p text-center">
+                                    With TradeImeX, you can access real-time import-export data, ensuring that you are
+                                    constantly updated with the latest changes in the market. By staying ahead of the curve,
+                                    businesses can capitalize on emerging trends and opportunities before their
+                                    competitors with our useful real-time data access.
+                                </p>
                             </div>
-                            <p class="text-center">
-                                With TradeImeX, you can access real-time import-export data, ensuring that you are
-                                constantly updated with the latest changes in the market. By staying ahead of the curve,
-                                businesses can capitalize on emerging trends and opportunities before their
-                                competitors.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-20">
-                            <div class="icon" style="justify-content: center;">
-                                <img src="assets/country/Exclusive.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/advance_analytics.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <div class="head">
-                                <h3 class="text-center">Advanced Analytics</h3>
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">Advanced Analytics</h5>
+                                <p class="card-text text-white-p text-center">
+                                    TradeImeX goes beyond providing raw data. It offers advanced analytics tools, 
+                                    enabling businesses to transform data into actionable insights. From visualizations 
+                                    and charts to interactive maps and trend analysis, TradeImeX empowers businesses 
+                                    to make data- driven decisions confidently.
+                                </p>
                             </div>
-                            <p class="text-center">
-                                TradeImeX goes beyond providing raw data. It offers advanced analytics tools, enabling
-                                businesses to transform data into actionable insights. From visualizations and charts to
-                                interactive maps and trend analysis, TradeImeX empowers businesses to make data-
-                                driven decisions confidently.
-                            </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-20">
-                            <div class="icon" style="justify-content: center;">
-                                <img src="assets/country/pocket friendly.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        <div class="card card-bg">
+                            <div class="card-img">
+                                <img src="assets/img/support.png" class="card-img-top" alt="..." style="width: 25%;">
                             </div>
-                            <div class="head">
-                                <h3 class="text-center">Comprehensive Support</h3>
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center" style="font-size: 18px;font-weight: 600;">Comprehensive Support</h5>
+                                <p class="card-text text-white-p text-center">
+                                    TradeImeX understands the importance of excellent customer support. With a team 
+                                    of industry experts always ready to assist users, TradeImeX ensures that businesses 
+                                    receive timely responses to their inquiries and have access to the guidance needed to 
+                                    extract maximum value from the platform.
+                                </p>
                             </div>
-                            <p class="text-center">
-                                TradeImeX understands the importance of excellent customer support. With a team of
-                                industry experts always ready to assist users, TradeImeX ensures that businesses receive
-                                timely responses to their inquiries and have access to the guidance needed to extract
-                                maximum value from the platform.
-                            </p>
                         </div>
                     </div>
                 </div>

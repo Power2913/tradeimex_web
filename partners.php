@@ -50,7 +50,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <img src="assets/img/Partners (1).png" width="100%">
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,7 +72,7 @@
                         <div class="row">
                             <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
-                                    <img src="assets/img/salary.png" width="100%">
+                                    <img src="assets/img/connection.png" width="100%">
                                     <div class="head-bg"> 
                                         <h3>
                                             Expanding Your Reach
@@ -86,7 +88,7 @@
                             </div>
                             <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
-                                    <img src="assets/img/salary.png" width="100%">
+                                    <img src="assets/img/reliability (1).png" width="100%">
                                     <div class="head-bg">
                                         <h3>
                                             Trust and Reliability
@@ -102,7 +104,7 @@
                             </div>
                             <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4">
                                 <div class="card-content-bg">
-                                    <img src="assets/img/salary.png" width="100%">
+                                    <img src="assets/img/global-network.png" width="100%">
                                     <div class="head-bg">
                                         <h3>
                                             Global Exposure
@@ -112,7 +114,7 @@
                                         With TradeImeX, you can showcase your products and services to a global audience. Whether
                                         you are a manufacturer, distributor, or service provider, our platform enables you to increase
                                         your visibility exponentially. By leveraging our extensive network, you can target markets and
-                                        regions that were previously inaccessible, expanding your business to new horizons.
+                                        regions that were previously inaccessible.
                                     </p>
                                 </div>
                             </div>
@@ -126,7 +128,7 @@
         <!-- <div class="container-fluid bg-gradient-custom padding-tb"></div> -->
 
         <!-- Sales Partner -->
-        <div class="container-fluid pdt-5 pdb-2 bg-white">
+        <div class="container-fluid pdt-5 pdb-2 bg-white" id="sales">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
@@ -155,18 +157,18 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6" style="padding-top: 2%;">
-                        <img class="img-fluid" src="assets/img/Bangladesh Import Data.svg">
+                        <img src="assets/img/Sales Partners.png" width="100%">
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Data Partner -->
-        <div class="container-fluid pdb-5 pdt-2 bg-white">
+        <div class="container-fluid pdb-5 pdt-2 bg-white" id="referral">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    
+                        <img src="assets/img/Data Partners.png" width="100%">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="text-content">
@@ -206,52 +208,58 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-17">
-                                    <div class="icon">
-                                        <img src="assets/img/diamond.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <div class="card card-bg cdh-20">
+                                    <div class="card-img">
+                                        <img src="assets/img/business (1).png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
-                                    <div class="head">
-                                        <h3>Comprehensive Trade Solutions</h3>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                            Comprehensive Trade Solutions
+                                        </h5>
+                                        <p class="card-text text-white-p">
+                                            TradeImeX offers more than just a platform for partner discovery. 
+                                            Our comprehensive trade solutions cater to all aspects of 
+                                            international trade. From trade financing information and 
+                                            market research to documentation and legal services.
+                                        </p>
                                     </div>
-                                    <p>
-                                        TradeImeX offers more than just a platform for partner discovery. 
-                                        Our comprehensive trade solutions cater to all aspects of 
-                                        international trade. From trade financing information and 
-                                        market research to documentation and legal services, 
-                                        we ensure that all your business needs are met under one roof.
-                                    </p>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-17">
-                                    <div class="icon">
-                                        <img src="assets/img/tick.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <div class="card card-bg cdh-20">
+                                    <div class="card-img">
+                                        <img src="assets/img/market.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
-                                    <div class="head">
-                                        <h3>Market Intelligence</h3>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                            Market Intelligence
+                                        </h5>
+                                        <p class="card-text text-white-p">
+                                            Stay ahead of the competition with our market intelligence tools. 
+                                            Gain access to valuable insights, industry trends, and competitor 
+                                            analysis, empowering you to make informed business decisions. 
+                                            Our data-driven approach helps you identify new opportunities, 
+                                            mitigate risks.
+                                        </p>
                                     </div>
-                                    <p>
-                                        Stay ahead of the competition with our market intelligence tools. Gain access to valuable
-                                        insights, industry trends, and competitor analysis, empowering you to make informed business
-                                        decisions. Our data-driven approach helps you identify new opportunities, mitigate risks, and
-                                        optimize your trading strategies.
-                                    </p>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <div class="card-content cdh-17">
-                                    <div class="icon">
-                                        <img src="assets/img/salary.png" alt="" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <div class="card card-bg cdh-20">
+                                    <div class="card-img">
+                                        <img src="assets/img/customer-service.png" class="card-img-top" alt="..." style="width: 25%;">
                                     </div>
-                                    <div class="head">
-                                        <h3>Personalized Support</h3>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white" style="font-size: 18px;font-weight: 600;">
+                                            Personalized Support
+                                        </h5>
+                                        <p class="card-text text-white-p">
+                                            At TradeImeX, customer satisfaction is our top priority. We provide personalized support 
+                                            throughout your journey, ensuring that you derive maximum value from our platform. 
+                                            Our committed team of professionals is on hand 24/7 to help you with any questions 
+                                            or issues you may have.
+                                        </p>
                                     </div>
-                                    <p>
-                                        At TradeImeX, customer satisfaction is our top priority. We provide personalized support
-                                        throughout your journey, ensuring that you derive maximum value from our platform. Our
-                                        committed team of professionals is on hand 24/7 to help you with any questions or issues you
-                                        may have.
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -301,6 +309,7 @@
                 </form>
             </div>
         </div>
+        <!-- Partnership Program Request form -->
 
         <!-- Last Partner tab -->
         <?php include 'tab_inc.php';?>

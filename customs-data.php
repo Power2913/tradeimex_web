@@ -47,7 +47,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex" style="justify-content: center;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex pdb-2" style="justify-content: center;">
                         <div class="data-img">
                             <img src="assets/img/Customs Data.png">
                         </div>
@@ -55,6 +55,7 @@
                 </div>
             </div>
         </div>
+        <!-- End of Overview -->
         
         <!-- Content With Key Points -->
         <div class="container-fluid padding-tb">
@@ -85,9 +86,9 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/globe.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Comprehensive Coverage</h3>
@@ -100,9 +101,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/real-time-strategy.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Real-Time Updates</h3>
@@ -115,24 +116,24 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/presentation.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
-                                <h3>Competitor Analysis</h3>
+                                <h3>Advanced Analytics for In-Depth Insights</h3>
                             </div>
                             <p>
-                                Gaining a competitive edge in the import-export industry requires meticulous competitor
-                                analysis. Our customs data simplifies this process by offering in-depth insights into competitors&#39;
-                                trade activities.
+                                TradeImeX goes beyond just providing raw data. Our customs data offers advanced analytics
+                                tools that transform complex information into valuable insights. Through data visualization
+                                and interactive customs reports.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/market-research (1).png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Market Research and Trend Analysis</h3>
@@ -149,7 +150,7 @@
         </div>
 
         <!-- The role of customs data from TradeImeX Dark BG Content -->
-        <div class="container-fluid padding-tb bg-dark-custom slanted-bottom">
+        <div class="container-fluid padding-tb bg-dark-custom">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-8">
@@ -173,9 +174,9 @@
                 <!-- 4 Points -->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-21">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/market -intelligence.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Market Intelligence</h3>
@@ -188,7 +189,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-21">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -203,7 +204,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-21">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -213,12 +214,12 @@
                             <p>
                                 Effective supply chain management is crucial for the smooth operation of businesses engaged
                                 in international trade. TradeImeX customs data provides real-time insights into shipping routes,
-                                transit times, and other import-export information.
+                                transit times, and other import-export information.Stay ahead with our smooth supply chain management.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-19">
+                        <div class="card-content cdh-21">
                             <div class="icon">
                                 <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>

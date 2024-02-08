@@ -69,12 +69,12 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/reliable-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">100% RELIABLE DATA</h3>
                             </div>
-                            <p class="text-white">
+                            <p class="text-white" style="font-size: 14px;">
                                 We promise to offer a 100% trustworthy database. We have acquired
                                 detailed and accurate shipping information from databases of more than 80 nations
                                 and across 6 continents. With TradeImeX you get completely reliable data for your
@@ -85,7 +85,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/updated-database.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">A NEW AND UPDATED DATABASE</h3>
@@ -101,7 +101,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-17 bg-none">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/reliability.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">TOP BRANDS TRUST US</h3>
@@ -117,7 +117,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 kp-width">
                         <div class="card-content cdh-16 bg-none">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/devaluation.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3 class="text-white">AFFORDABLE PACKAGES</h3>
@@ -311,7 +311,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/exclusive-trade-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Exclusive trade data</h3>
@@ -326,7 +326,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/intelligence-trade-data.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Trade Intelligence Data Platform</h3>
@@ -341,7 +341,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/Growth-I.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Growth of the international network</h3>
@@ -356,7 +356,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/data-source.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Data Sourcing and privacy</h3>
@@ -624,7 +624,7 @@
                                 <img src="assets/flags/philippines_rectangular_icon_with_shadow_64.png">
                                 <br>
                                 <a href="countries.php?id=TAS-12" class="text-hover custom">
-                                    <h4>Phillipines</h4>
+                                    <h4>Philippines</h4>
                                 </a>
                             </div>
                             <div class="col-sm-4 col-md-3 col-lg-3 Flag">
@@ -1330,11 +1330,11 @@
                 <div class="clearfix"></div>
             </div>
             <div class="text-content flex" style="justify-content: center;margin-top: 2rem;">
-                <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
+                <div class="flex text-center" style="align-items: baseline;padding: 2px 15px 2px 4px;">
                     <i class="fa-solid fa-square" style="color: #00ca6f;"></i>
                     <p class="text-black text-white">&nbsp;&nbsp;Customs Data</p>
                 </div>
-                <div class="flex text-center" style="align-items: baseline;padding: 2px 4px 2px 4px;">
+                <div class="flex text-center" style="align-items: baseline;padding: 2px 15px 2px 4px;">
                     <i class="fa-solid fa-square" style="color: #fff;"></i>
                     <p class="text-black text-white">&nbsp;&nbsp;Statistical/BL Data</p>
                 </div>
@@ -1344,8 +1344,8 @@
         <!-- Client floating list -->
         <div class="container-fluid bg-bluish" style="padding-top: 8%;padding-bottom: 0.5%;">
             <div class="container" id="clientsserved">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="row mt-0">
+                    <div class="col-sm-12 col-md-12 col-lg-6 proud-client" style="margin-top: -50px;"> 
                         <div class="text-content">
                             <h2>PROUD AND SATISFIED CLIENTS</h2>
                             <p>
@@ -1491,48 +1491,51 @@
                         </div>
 
                         <!-- For Mobile -->
-                        <div id="client_mobile" class="container-fluid" style="display: none;">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Realme.png">
-                                        </div>
+                        <div id="client_mobile" class="container" style="display: none;">
+                            <div class="row">
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Realme.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Nikon.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Counterpoint.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Samsung.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Samsung.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/LG.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/LG.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Hyundai.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Hyundai.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Mahindra.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Aditya_Birla.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/Tata.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/KPMG.png">
                                     </div>
-                                    <div class="client-mb col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                        <div class="client-img zoom">
-                                            <img src="assets/client_transparent/TVS.png">
-                                        </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Dow.png">
+                                    </div>
+                                </div>
+                                <div class="client-mb col-xs-12 col-sm-4 col-md-6 col-lg-3">
+                                    <div class="client-img zoom">
+                                        <img src="assets/client_transparent/Unilever.png">
                                     </div>
                                 </div>
                             </div>
@@ -1542,7 +1545,7 @@
             </div>
         </div>
 
-        <!-- Blog slider -->
+        <!-- Blog -->
         <div class="container-fluid bg-dark-custom pdt-2 pdb-2">
             <div class="container">
                 <div class="text-content">
@@ -1569,14 +1572,16 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog_card">
                         <div class="blog_card_image">
-                            <img src="assets/img/blog-1.jpg" alt="">
+                            <img src="assets/img/blog_1.jpg" alt="">
                         </div>
                         <div class="blog_card_content">
-                            <h3>What are the trade relations between the US and Mexico?</h3>
+                            <h3>
+                                India’s Ambitious Interim
+                                Union Budget 2024-25
+                            </h3>
                             <p>
-                                According to the Philippines export data, the total amount 
-                                of electronic exports from the Philippines accounted for $43.55 
-                                billion in 2022...
+                                Discover everything you need to know about the highly anticipated Interim Union 
+                                Budget 2024-25 presented by Finance Minister Nirma...
                             </p>
                             <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
                                 <h6>Read More</h6>
@@ -1587,13 +1592,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog_card">
                         <div class="blog_card_image">
-                            <img src="assets/img/blog-3.jpg" alt="">
+                            <img src="assets/img/blog_2.jpg" alt="">
                         </div>
                         <div class="blog_card_content">
-                            <h3>Medical Equipment Exports in 2022</h3>
+                            <h3>Corn exports and imports in 2023</h3>
                             <p>
-                                The United States is the top exporter of medical equipment with a
-                                total value of $30.2 billion in 2022. Discover the leading medic...
+                                The total amount of corn produced globally in 2023 was 1.17 billion metric tons 
+                                with the USA leading the corn exports, while China...
                             </p>
                             <a class="text-hover" href="https://tradeimex.in/blogs/medical-equipment-export">
                                 <h6>Read More</h6>
@@ -1604,14 +1609,15 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog_card">
                         <div class="blog_card_image">
-                            <img src="assets/img/blog_5.jpg" alt="">
+                            <img src="assets/img/blog_3.jpg" alt="">
                         </div>
                         <div class="blog_card_content">
-                            <h3>What are the top electronic exports of the Philippines?</h3>
+                            <h3>
+                                Rice Import-Export Trade Statistics of 2023
+                            </h3>
                             <p>
-                                According to the Philippines export data, the total amount
-                                of electronic exports from the Philippines accounted for
-                                $43.55 billion in 2022...
+                                Discover the latest trends and projections for Rice trade statistics 
+                                in 2023. get the global trade data statistics of rice, Acqui...
                             </p>
                             <a class="text-hover" href="https://tradeimex.in/blogs/top-electronic-exports-of-the-philippines">
                                 <h6>Read More</h6>
@@ -1619,6 +1625,26 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog_card">
+                        <div class="blog_card_image">
+                            <img src="assets/img/blog_1.jpg" alt="">
+                        </div>
+                        <div class="blog_card_content">
+                            <h3>
+                                India’s Ambitious Interim
+                                Union Budget 2024-25
+                            </h3>
+                            <p>
+                                Discover everything you need to know about the highly anticipated Interim Union 
+                                Budget 2024-25 presented by Finance Minister Nirma...
+                            </p>
+                            <a class="text-hover" href="https://tradeimex.in/blogs/us-mexico-trade-relations">
+                                <h6>Read More</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
 

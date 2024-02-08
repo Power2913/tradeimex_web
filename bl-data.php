@@ -81,7 +81,7 @@
             <div class="container pdt-2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-17">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/revenue.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -91,12 +91,13 @@
                             <p>
                                 Access to comprehensive B/L data empowers businesses to
                                 make data-driven decisions, optimize their supply chain, identify new markets, and
-                                stay ahead of the competition.
+                                stay ahead of the competition with strategic and accurate decision-making for your
+                                business with B/L data.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-17">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/automated.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>  
@@ -104,14 +105,15 @@
                                 <h3>Streamlined Documentation Processes</h3>
                             </div>
                             <p>
-                                Traditionally, managing and processing
-                                shipping documentation can be a tough and time-consuming task. However, B/L data
-                                can streamline these processes, reducing administrative burdens.
+                                Traditionally, managing and processing shipping documentation can be a tough and 
+                                time-consuming task. However, B/L data
+                                can streamline these processes, reducing administrative burdens and improving
+                                operationals
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-17">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/process.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -121,12 +123,12 @@
                             <p>
                                 B/L data provides businesses with a valuable source of
                                 data for decision-making purposes. By acquiring B/L data, companies can gain insights
-                                into various aspects of their operations.
+                                into various aspects of their operations, such as transit times & routes.
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-17">
+                        <div class="card-content cdh-18">
                             <div class="icon">
                                 <img src="assets/img/survey.png" width="20%" style="padding: 0px 0px 0px 10px;">
                             </div>
@@ -134,8 +136,10 @@
                                 <h3>Enhanced Supply Chain Visibility and Tracking</h3>
                             </div>
                             <p>
-                                With TradeImeX, businesses can track their competitors&#39; activities,
-                                analyze their market share, and identify potential collaboration opportunities.
+                                With access to B/L data, businesses can
+                                gain real-time visibility into the movement of their goods. They can track shipments,
+                                anticipate delays, and proactively manage any disruptions in the supply chain. Get
+                                ahead in your business.
                             </p>
                         </div>
                     </div>

@@ -27,7 +27,7 @@
         <?php include 'header.php';?>
 
         <!-- Overview -->
-        <div class="container-fluid padding-tb bg-bluish slanted-bottom">
+        <div class="container-fluid padding-tb bg-bluish">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <img src="/assets/img/Bangladesh Import Data (1).gif" width="100%">
+                        <img src="/assets/img/Our Product.gif" width="100%">
                     </div>
                 </div>
             </div>
