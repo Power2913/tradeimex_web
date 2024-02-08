@@ -81,9 +81,9 @@
             <div class="container pdt-2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/revenue.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/strategic-planning.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Strategic Decision Making</h3>
@@ -97,9 +97,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/automated.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/data-processing.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Streamlined Documentation Processes</h3>
@@ -113,9 +113,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/process.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/survey.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Data-Driven Decision Making</h3>
@@ -128,9 +128,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-18">
+                        <div class="card-content cdh-20">
                             <div class="icon">
-                                <img src="assets/img/survey.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/process.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Enhanced Supply Chain Visibility and Tracking</h3>

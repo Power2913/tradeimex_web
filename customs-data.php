@@ -153,7 +153,7 @@
         <div class="container-fluid padding-tb bg-dark-custom">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-8">
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-12">
                         <div class="text-content">
                             <!-- <span style="color: #96f;">A modular, end-to-end solution</span> -->
                             <h2 style="color: white;">
@@ -167,16 +167,13 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4">
-                        
-                    </div>
                 </div>
                 <!-- 4 Points -->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
+                        <div class="card-content cdh-22">
                             <div class="icon">
-                                <img src="assets/img/market -intelligence.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/market -intelligence.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Market Intelligence</h3>
@@ -189,9 +186,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
+                        <div class="card-content cdh-22">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/potential-partner.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>  
                             <div class="head">
                                 <h3>Identifying Potential Partners</h3>
@@ -204,9 +201,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
+                        <div class="card-content cdh-22">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/supply-chain-management.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Managing Supply Chain</h3>
@@ -219,9 +216,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="card-content cdh-21">
+                        <div class="card-content cdh-22">
                             <div class="icon">
-                                <img src="assets/img/growth.png" width="20%" style="padding: 0px 0px 0px 10px;">
+                                <img src="assets/img/risks.png" width="30%" style="padding: 0px 0px 0px 10px;">
                             </div>
                             <div class="head">
                                 <h3>Mitigating Risks</h3>

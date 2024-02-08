@@ -38,7 +38,7 @@
                                 import-export data. With TradeImeX serving as the gateway to a wealth of import-export data
                                 and global data, businesses can unlock significant growth opportunities, navigate complex trade
                                 scenarios, and make informed decisions for a prosperous future. We offer comprehensive
-                                import-export data and trade data information in more than 80 countries and across 6
+                                import-export data and trade data information for more than 80 countries and across 6
                                 continents. TradeImeX serves as a gateway to a world of import-export data, providing
                                 companies with important information about trends in global commerce, consumer wants, and
                                 future business opportunities. Leading the worldwide trade intelligence platform, we offer a

@@ -39,10 +39,14 @@
                             </h1>
                             <p>
                                 Finding reliable buyers and suppliers is crucial for any business looking to expand its reach and
-                                increase profits. TradeImeX is an extremely helpful online trade intelligence platform that helps
-                                you connect with probable buyers and suppliers from all over the world. You can explore the
-                                various ways in which TradeImeX can assist you in finding the right partners, buyers, and
-                                suppliers for your business across 80 countries and 6 continents.
+                                increase profits. With the advancement of technology and globalization, connecting with
+                                potential partners from around the world has become easier than ever. One such platform
+                                that has revolutionized the way businesses find buyers and suppliers is TradeImeX. It is a
+                                platform that connects buyers and suppliers from different countries. TradeImeX is an
+                                extremely helpful trade intelligence platform that helps you connect with probable buyers and
+                                suppliers from all over the world. You can explore the various ways in which TradeImeX can
+                                assist you in finding the right partners, buyers, and suppliers for your business across 80
+                                countries and 6 continents.
                             </p>
                         </div>
                     </div>
